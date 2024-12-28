@@ -30,6 +30,7 @@
         "Owner": "DarthParametric",
         "RepoName": "RT_Additional_Ship_Names"
       }
+    },
     "About": "Adds additional random names for the player's ship in the character creator.",
     "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/192",
     "Tags": [ "Miscellaneous", "UserInterface" ]
