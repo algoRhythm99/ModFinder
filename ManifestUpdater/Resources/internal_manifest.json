@@ -19,24 +19,6 @@
   },
 
   {
-    "Name": "Additional Ship Names",
-    "Author": "DarthParametric",
-    "Id": {
-      "Id": "DPAdditionalShipNames",
-      "Type": "Owlcat"
-    },
-    "Service": {
-      "Github": {
-        "Owner": "DarthParametric",
-        "RepoName": "RT_Additional_Ship_Names"
-      }
-    },
-    "About": "Adds additional random names for the player's ship in the character creator.",
-    "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/192",
-    "Tags": [ "Miscellaneous", "UserInterface" ]
-  },
-
-  {
     "Name": "Additional Reactivity",
     "Author": "juliabel",
     "Id": {
@@ -72,6 +54,23 @@
   },
 
   {
+    "Name": "Administratum Sage Origin",
+    "Author": "jonHinkerton",
+    "Id": {
+      "Id": "jhSage",
+      "Type": "Owlcat"
+    },
+    "Service": {
+      "Nexus": {
+        "ModID": "190"
+      }
+    },
+    "About": "Adds a human computer background to the game",
+    "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/190",
+    "Tags": [ "Gameplay" ]
+  },
+
+  {
     "Name": "Allow Modded Achievements",
     "Author": "AlterAsc",
     "Id": {
@@ -87,6 +86,23 @@
     "About": "Separate mod to allow achievements while modded.",
     "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/4",
     "Tags": [ "Gameplay", "Utilities" ]
+  },
+
+  {
+    "Name": "Better Escort Ships",
+    "Author": "jonHinkerton",
+    "Id": {
+      "Id": "jhBetterWingman",
+      "Type": "Owlcat"
+    },
+    "Service": {
+      "Nexus": {
+        "ModID": "189"
+      }
+    },
+    "About": "Improve the escort ships so they can actually be helpful.",
+    "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/189",
+    "Tags": [ "Gameplay" ]
   },
 
   {
@@ -137,6 +153,23 @@
     },
     "About": "Increases the visual size of your flagship to make it more impressive.",
     "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/167",
+    "Tags": [ "Utilities" ]
+  },
+
+  {
+    "Name": "Build All Projects",
+    "Author": "jonHinkerton",
+    "Id": {
+      "Id": "NoBlockingProjects",
+      "Type": "UMM"
+    },
+    "Service": {
+      "Nexus": {
+        "ModID": "187"
+      }
+    },
+    "About": "Do you like colony projects? Do you really like colony projects? Do you hate picking which mutually exclusive project to build? Do you want to build every colony project? \nThis mod unlocks the projects that are normally blocked by building another project. Go nuts.",
+    "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/187",
     "Tags": [ "Utilities" ]
   },
 
