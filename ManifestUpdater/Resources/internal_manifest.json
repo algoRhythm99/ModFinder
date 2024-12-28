@@ -1,6 +1,23 @@
 [
   // Please keep sorted by Name.
   {
+    "Name": "Additional Character Names",
+    "Author": "DarthParametric",
+    "Id": {
+      "Id": "DPAdditionalCharacterNames",
+      "Type": "Owlcat"
+    },
+    "Service": {
+      "Github": {
+        "Owner": "DarthParametric",
+        "RepoName": "RT_Additional_Character_Names"
+      }
+    "About": "Adds additional random names for the RT and mercenaries in the character creator.",
+    "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/191",
+    "Tags": [ "Miscellaneous", "UserInterface" ]
+  },
+
+  {
     "Name": "Additional Reactivity",
     "Author": "juliabel",
     "Id": {
