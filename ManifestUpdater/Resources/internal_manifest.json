@@ -195,7 +195,7 @@
     "Name": "Cold Trader Origin",
     "Author": "jonHinkerton",
     "Id": {
-      "Id": "ColdTraderOccupation",
+      "Id": "jhColdTrader",
       "Type": "Owlcat"
     },
     "Service": {
