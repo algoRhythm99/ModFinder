@@ -107,6 +107,23 @@
   },
 
   {
+    "Name": "Arc Rifles As Plasma",
+    "Author": "jonHinkerton",
+    "Id": {
+      "Id": "jhArcPlasma",
+      "Type": "Owlcat"
+    },
+    "Service": {
+      "Nexus": {
+        "ModID": "201"
+      }
+    },
+    "About": "Makes arc rifles members of the plasma family so that mechanicus/forge world characters can make the most of these distinctively admech weapons.",
+    "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/201",
+    "Tags": [ "Gameplay" ]
+  },
+
+  {
     "Name": "Better Escort Ships",
     "Author": "jonHinkerton",
     "Id": {
