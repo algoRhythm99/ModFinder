@@ -261,24 +261,6 @@
   },
 
   {
-    "Name": "Enable All Archetypes",
-    "Author": "Ode",
-    "Id": {
-      "Id": "SnarkAllClasses",
-      "Type": "UMM"
-    },
-    "Service": {
-      "Github": {
-        "Owner": "Snarkki",
-        "RepoName": "SnarkAllClasses"
-      }
-    },
-    "About": "Enable all classes for all archetypes",
-    "HomepageUrl": "https://github.com/Snarkki/SnarkAllClasses",
-    "Tags": [ "Utilities" ]
-  },
-
-  {
     "Name": "Enhanced Controls",
     "Author": "AlterAsc",
     "Id": {
