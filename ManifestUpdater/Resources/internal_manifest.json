@@ -124,6 +124,23 @@
   },
 
   {
+    "Name": "Batteries in Pairs",
+    "Author": "jonHinkerton",
+    "Id": {
+      "Id": "jhBatteriesInPairs",
+      "Type": "Owlcat"
+    },
+    "Service": {
+      "Nexus": {
+        "ModID": "210"
+      }
+    },
+    "About": "Gives matching pairs of broadside batteries rather than singles.",
+    "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/210",
+    "Tags": [ "Gameplay" ]
+  },
+
+  {
     "Name": "Better Escort Ships",
     "Author": "jonHinkerton",
     "Id": {
@@ -467,6 +484,23 @@
   },
 
   {
+    "Name": "Medicae Archetype",
+    "Author": "jonHinkerton",
+    "Id": {
+      "Id": "jhMedicae",
+      "Type": "Owlcat"
+    },
+    "Service": {
+      "Nexus": {
+        "ModID": "208"
+      }
+    },
+    "About": "A new tier 1 archetype with a focus on healing and party buffs. ",
+    "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/208",
+    "Tags": [ "Gameplay" ]
+  },
+
+  {
     "Name": "MicroPatches",
     "Author": "Microsoftenator",
     "Id": {
@@ -623,6 +657,23 @@
     "About": "Allows taking (rolling preset value) when doing skill checks. Available options are: roll normally, take 50, take 33, take 25, take 10, take 1. Settings are per individual skill.",
     "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/3",
     "Tags": [ "Gameplay", "Utilities" ]
+  },
+
+  {
+    "Name": "Tier 1 Archetypes in Tier 2",
+    "Author": "jonHinkerton",
+    "Id": {
+      "Id": "jhT1T2",
+      "Type": "Owlcat"
+    },
+    "Service": {
+      "Nexus": {
+        "ModID": "211"
+      }
+    },
+    "About": "Makes the tier 1 archetypes available in tier 2.",
+    "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/211",
+    "Tags": [ "Gameplay" ]
   },
 
   {
