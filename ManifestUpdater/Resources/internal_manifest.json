@@ -243,6 +243,23 @@
   },
 
   {
+    "Name": "Custom Escorts",
+    "Author": "jonHinkerton",
+    "Id": {
+      "Id": "jhCustomEscorts",
+      "Type": "UMM"
+    },
+    "Service": {
+      "Nexus": {
+        "ModID": "219"
+      }
+    },
+    "About": "Change the visual appearance of your escort ships to any of a number of options.",
+    "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/219",
+    "Tags": [ "Utilities" ]
+  },
+  
+  {
     "Name": "Custom Flagship",
     "Author": "jonHinkerton",
     "Id": {
