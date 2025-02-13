@@ -572,6 +572,23 @@
   },
 
   {
+    "Name": "Origins Of The Expanse",
+    "Author": "OdinThePine",
+    "Id": {
+      "Id": "OriginsfTheExpanse",
+      "Type": "Owlcat"
+    },
+    "Service": {
+      "Nexus": {
+        "ModID": "188"
+      }
+    },
+    "About": "Add new homebrewed, lore-friendly custom Origins - Pariah, Augmenticist.",
+    "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/188",
+    "Tags": [ "Gameplay" ]
+  },
+
+  {
     "Name": "Playable X",
     "Author": "ADDB",
     "Id": {
@@ -605,6 +622,23 @@
     "About": "While the base game allows you to set your character's voice independently of their body type, your character's gender is determined based on your chosen body type (I = male, II = female). With this mod, you can override this behaviour.",
     "HomepageUrl": "https://github.com/microsoftenator2022/PlayerGenderOverride",
     "Tags": [ "Gameplay", "Utilities" ]
+  },
+
+  {
+    "Name": "Psykers Of The Expanse",
+    "Author": "OdinThePine",
+    "Id": {
+      "Id": "PsykersOfTheExpanse",
+      "Type": "Owlcat"
+    },
+    "Service": {
+      "Nexus": {
+        "ModID": "218"
+      }
+    },
+    "About": "Add new custom Psyker Disciplines - Electromancer.",
+    "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/218",
+    "Tags": [ "Gameplay" ]
   },
 
   {
@@ -742,40 +776,6 @@
     },
     "About": "Unlock's Kibellah's first quick slot.",
     "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/198",
-    "Tags": [ "Gameplay" ]
-  },
-
-  {
-    "Name": "Psykers Of The Expanse",
-    "Author": "OdinThePine",
-    "Id": {
-      "Id": "PsykersOfTheExpanse",
-      "Type": "Owlcat"
-    },
-    "Service": {
-      "Nexus": {
-        "ModID": "218"
-      }
-    },
-    "About": "Add new custom Psyker Disciplines - Electromancer.",
-    "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/218",
-    "Tags": [ "Gameplay" ]
-  },
-
-  {
-    "Name": "Origins Of The Expanse",
-    "Author": "OdinThePine",
-    "Id": {
-      "Id": "OriginsfTheExpanse",
-      "Type": "Owlcat"
-    },
-    "Service": {
-      "Nexus": {
-        "ModID": "188"
-      }
-    },
-    "About": "Add new homebrewed, lore-friendly custom Origins - Pariah, Augmenticist.",
-    "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/188",
     "Tags": [ "Gameplay" ]
   }
 
