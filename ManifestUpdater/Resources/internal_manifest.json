@@ -34,7 +34,7 @@
     "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/132",
     "Tags": [ "Gameplay" ]
   },
-  
+
   {
     "Name": "Additional Ship Names",
     "Author": "DarthParametric",
@@ -258,7 +258,7 @@
     "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/219",
     "Tags": [ "Utilities" ]
   },
-  
+
   {
     "Name": "Custom Flagship",
     "Author": "jonHinkerton",
@@ -607,7 +607,7 @@
     "Tags": [ "Gameplay", "Utilities" ]
   },
 
-    {
+  {
     "Name": "Random Space Battles",
     "Author": "jonHinkerton",
     "Id": {
@@ -742,6 +742,40 @@
     },
     "About": "Unlock's Kibellah's first quick slot.",
     "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/198",
+    "Tags": [ "Gameplay" ]
+  },
+
+  {
+    "Name": "Psykers Of The Expanse",
+    "Author": "OdinThePine",
+    "Id": {
+      "Id": "PsykersOfTheExpanse",
+      "Type": "Owlcat"
+    },
+    "Service": {
+      "Nexus": {
+        "ModID": "218"
+      }
+    },
+    "About": "Add new custom Psyker Disciplines - Electromancer.",
+    "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/218",
+    "Tags": [ "Gameplay" ]
+  },
+
+  {
+    "Name": "Origins Of The Expanse",
+    "Author": "OdinThePine",
+    "Id": {
+      "Id": "OriginsfTheExpanse",
+      "Type": "Owlcat"
+    },
+    "Service": {
+      "Nexus": {
+        "ModID": "188"
+      }
+    },
+    "About": "Add new homebrewed, lore-friendly custom Origins - Pariah, Augmenticist.",
+    "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/188",
     "Tags": [ "Gameplay" ]
   }
 
