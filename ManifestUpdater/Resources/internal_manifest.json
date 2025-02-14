@@ -572,6 +572,23 @@
   },
 
   {
+    "Name": "No Weapons On Backs",
+    "Author": "jonHinkerton",
+    "Id": {
+      "Id": "jhNoBackGuns",
+      "Type": "UMM"
+    },
+    "Service": {
+      "Nexus": {
+        "ModID": "223"
+      }
+    },
+    "About": "Hides inactive weapons on character backs",
+    "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/223",
+    "Tags": [ "Utilities" ]
+  },
+  
+  {
     "Name": "Origins Of The Expanse",
     "Author": "OdinThePine",
     "Id": {
