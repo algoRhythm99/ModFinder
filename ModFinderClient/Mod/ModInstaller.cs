@@ -119,9 +119,11 @@ namespace ModFinder.Mod
 
     private static ModType GetModTypeFromArchive(IArchive archive)
     {
-      if (archive.Entries.Any(e => e.Key.Equals("Info.json", StringComparison.CurrentCultureIgnoreCase)))
+      //if (archive.Entries.Any(e => e.Key.Equals("Info.json", StringComparison.CurrentCultureIgnoreCase)))
+      if (archive.Entries.FirstOrDefault(e => Path.GetFileName(e.Key).Equals("Info.json", StringComparison.OrdinalIgnoreCase)) != null)
         return ModType.UMM;
-      if (archive.Entries.Any(e => e.Key.Equals("OwlcatModificationManifest.json", StringComparison.CurrentCultureIgnoreCase)))
+      //if (archive.Entries.Any(e => e.Key.Equals("OwlcatModificationManifest.json", StringComparison.CurrentCultureIgnoreCase)))
+      if (archive.Entries.FirstOrDefault(e => Path.GetFileName(e.Key).Equals("OwlcatModificationManifest.json", StringComparison.OrdinalIgnoreCase)) != null)
         return ModType.Owlcat;
       else return ModType.Portrait;
     }
