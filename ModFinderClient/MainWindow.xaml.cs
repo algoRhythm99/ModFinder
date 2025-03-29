@@ -333,6 +333,9 @@ namespace ModFinder
           mod.InstalledVersion = ModVersion.Parse(info.Version);
 
           mod.Enabled = Main.OwlcatMods.Has(info.UniqueName);
+
+          // set MicroPatches for a requirement, since Owlmods in RT need it to do anything currently
+          mod.SetRequirements(["MicroPatches"]);
         }
         return mod;
       }
