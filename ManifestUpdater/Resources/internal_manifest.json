@@ -606,6 +606,23 @@
   },
   
   {
+    "Name": "One Handed Staves",
+    "Author": "Xurlglurlblu",
+    "Id": {
+      "Id": "OneHandedStaves",
+      "Type": "Owlcat"
+    },
+    "Service": {
+      "Nexus": {
+        "ModID": "175"
+      }
+    },
+    "About": "Makes Psyker and Navigator staves one-handed",
+    "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/175",
+    "Tags": [ "Gameplay" ]
+  },
+
+  {
     "Name": "Origins Of The Expanse",
     "Author": "OdinThePine",
     "Id": {
