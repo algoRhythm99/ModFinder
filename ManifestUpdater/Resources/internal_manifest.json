@@ -710,23 +710,6 @@
   },
 
   {
-    "Name": "Random Space Battles",
-    "Author": "jonHinkerton",
-    "Id": {
-      "Id": "jhRandomSpaceBattles",
-      "Type": "Owlcat"
-    },
-    "Service": {
-      "Nexus": {
-        "ModID": "194"
-      }
-    },
-    "About": "Add space battles to the random events tables for warp travel.",
-    "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/194",
-    "Tags": [ "Gameplay" ]
-  },
-
-  {
     "Name": "Ravor Find Me A Heretic",
     "Author": "jonHinkerton",
     "Id": {
