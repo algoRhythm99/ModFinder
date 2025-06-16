@@ -4,7 +4,7 @@
     <OutputType>WinExe</OutputType>
     <TargetFramework>net8.0-windows</TargetFramework>
     <UseWPF>true</UseWPF>
-    <ApplicationIcon>Wrath-1.ico</ApplicationIcon>
+    <ApplicationIcon>RT_Icon.ico</ApplicationIcon>
     <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
     <RollForward>Major</RollForward>
     <Configurations>Debug;Release;DebugTest</Configurations>
@@ -13,10 +13,17 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="background.png" />
+    <None Remove="Aquila1.png" />
+	<None Remove="Aquila2.png" />
+	<None Remove="background.png" />
+	<None Remove="background_PopUp.png" />
     <None Remove="icons\drop-bg.png" />
     <None Remove="icons\error.png" />
     <None Remove="icons\okay.png" />
+    <None Remove="icons\MFRT_Logo.png" />
+	<None Remove="icons\MFRT_Logo2.png" />
+	<None Remove="icons\RT_Logo.png" />
+	<None Remove="icons\RT_Logo2.png" />
     <None Remove="icons\UI_BoxButton_Click.png" />
     <None Remove="icons\UI_BoxButton_Default.png" />
     <None Remove="icons\UI_BoxButton_Disable.png" />
@@ -93,7 +100,14 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="icons\background.png" />
+    <Resource Include="icons\Aquila1.png" />
+	<Resource Include="icons\Aquila2.png" />
+	<Resource Include="icons\background.png" />
+	<Resource Include="icons\background_PopUp.png" />
+	<Resource Include="icons\MFRT_Logo.png" />
+	<Resource Include="icons\MFRT_Logo2.png" />
+	<Resource Include="icons\RT_Logo.png" />
+	<Resource Include="icons\RT_Logo2.png" />
     <Resource Include="icons\drop-bg.png" />
     <Resource Include="icons\UI_BoxButton_Click.png" />
     <Resource Include="icons\UI_BoxButton_Default.png" />

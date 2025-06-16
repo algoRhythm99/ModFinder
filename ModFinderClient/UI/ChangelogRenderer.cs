@@ -26,7 +26,7 @@ namespace ModFinder.UI
       var section = new Section();
 
       if (version.Version >= installedVersion)
-        section.Foreground = Brushes.Black;
+        section.Foreground = Brushes.LightGray;
       else
         section.Foreground = Brushes.DimGray;
 

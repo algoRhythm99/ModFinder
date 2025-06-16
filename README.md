@@ -5,8 +5,10 @@
 
 A tool for browsing and managing Warhammer 40k Rogue Trader mods and their dependencies.
 
+<!---
 ![2024-04-12 14 18 12 - MainWindow](https://github.com/CasDragon/ModFinder/assets/91767316/4eff53cd-61c0-4e47-97b6-99ca2a129a8d)
-
+--->
+<p align="center"><img src="screenshots/main.png?raw=true" alt="ModFinder RT Main Window"/></p>
 
 ## Features
 
@@ -30,7 +32,7 @@ A tool for browsing and managing Warhammer 40k Rogue Trader mods and their depen
 Tips:
 
 * Searching checks mod name and author by default
-* You can search specifically name, author, or [tag](https://github.com/Pathfinder-WOTR-Modding-Community/ModFinder/blob/main/ModFinderClient/Mod/Tag.cs):
+* You can search specifically name, author, or [tag](https://github.com/CasDragon/ModFinder/blob/RogueTrader/ModFinderClient/Mod/Tag.cs):
     * `a:bub` to include authors with "bub" in their name, or `-a:bub` to exclude them
     * `n:super` to include mods with "super" in the name, or `-n:super` to exclude them
     * `t:game` to include tags with "game" in their name, or `-n:game` to exclude them
@@ -54,18 +56,18 @@ To add (or change details about) your mod:
     * Don't include any version data or description, this is automatically updated roughly every 2 hours
     * You can submit a PR or file an issue
     
-That's it! The manifest format is documented [in the code](https://github.com/Pathfinder-WOTR-Modding-Community/ModFinder/blob/main/ModFinderClient/Mod/ModManifest.cs).
+That's it! The manifest format is documented [in the code](https://github.com/CasDragon/ModFinder/blob/RogueTrader/ModFinderClient/Mod/ModManifest.cs).
 
-Make sure to apply the appropriate [tags](https://github.com/Pathfinder-WOTR-Modding-Community/ModFinder/blob/main/ModFinderClient/Mod/Tag.cs) so users can find your mod.
+Make sure to apply the appropriate [tags](https://github.com/CasDragon/ModFinder/blob/RogueTrader/ModFinderClient/Mod/Tag.cs) so users can find your mod.
  
 Assumptions for GitHub:
 
 * The first release asset is a zip file containing the mod (i.e. what a user would drag into UMM)
-    * You can specify a `ReleaseFilter`, look at [MewsiferConsole](https://github.com/Pathfinder-WOTR-Modding-Community/ModFinder/blob/main/ManifestUpdater/Resources/internal_manifest.json) for an example
+    * You can specify a `ReleaseFilter`, look at [MewsiferConsole](https://github.com/CasDragon/ModFinder/blob/RogueTrader/ManifestUpdater/Resources/internal_manifest.json) for an example
 * Your releases are tagged with a version string in the format `1.2.3e`. Prefixes are ignored.
     * If there's a mismatch between your GitHub tag version and `Info.json` version it will think the mod is always out of date
 
-If necessary you can host your own `ModManifest` JSON file by adding a direct download link to `ExternalManifestUrls` in [master_manifest.json](https://github.com/Pathfinder-WOTR-Modding-Community/ModFinder/blob/main/ManifestUpdater/Resources/master_manifest.json). Keep in mind, this will not be automatically updated so it is up to you to populate description and version info.
+If necessary you can host your own `ModManifest` JSON file by adding a direct download link to `ExternalManifestUrls` in [master_manifest.json](https://github.com/CasDragon/ModFinder/blob/RogueTrader/ManifestUpdater/Resources/master_manifest.json). Keep in mind, this will not be automatically updated so it is up to you to populate description and version info.
 
 ### Want your mod removed from the list?
 
