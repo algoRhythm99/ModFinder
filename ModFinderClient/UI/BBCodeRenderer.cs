@@ -108,6 +108,7 @@ namespace ModFinder.UI
               lists.Push(new());
               if (tag.EndsWith("=1"))
                 lists.Peek().MarkerStyle = TextMarkerStyle.Decimal;
+                lists.Peek().Foreground = Brushes.LightGray;
             }
             else
             {
@@ -190,6 +191,9 @@ namespace ModFinder.UI
 
         Inline run = new Run(stripped.ToString());
         stripped.Clear();
+
+        // Set the font colour, since it defaults to black otherwise.
+        run.Foreground = Brushes.LightGray;
 
         if (state.tags["b"] > 0)
           run = new Bold(run);

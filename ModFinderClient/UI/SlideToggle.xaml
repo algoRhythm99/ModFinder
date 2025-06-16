@@ -31,7 +31,7 @@
                         <ImageBrush ImageSource="pack://application:,,,/icons/UI_Toggler_BG.png"></ImageBrush>
                     </Rectangle.OpacityMask>
                 </Rectangle>
-                <TextBlock FontFamily="Constantia" FontWeight="Bold" TextAlignment="Right" VerticalAlignment="Center" Padding="0,0,8,0" Text="{Binding Path=LeftText, RelativeSource={RelativeSource AncestorType=UserControl}}" />
+                <TextBlock FontFamily="Constantia" Foreground="LightGray" FontWeight="Bold" TextAlignment="Right" VerticalAlignment="Center" Padding="0,0,8,0" Text="{Binding Path=LeftText, RelativeSource={RelativeSource AncestorType=UserControl}}" />
             </Grid>
             <ControlTemplate.Triggers>
                 <Trigger Property="IsMouseOver" Value="True">

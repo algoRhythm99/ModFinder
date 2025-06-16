@@ -66,7 +66,7 @@ namespace ModFinder.UI
       var pipeline = new MarkdownPipelineBuilder().UsePipeTables().Build();
       Markdig.Syntax.MarkdownDocument md = Markdown.Parse(raw, pipeline);
 
-      doc.Foreground = new SolidColorBrush(Color.FromRgb(20, 20, 20));
+      doc.Foreground = new SolidColorBrush(Color.FromRgb(211, 211, 211));
 
       var renderer = new WpfRenderer(doc);
       renderer.Render(md);
@@ -404,8 +404,8 @@ namespace ModFinder.UI
       {
         Paragraph p = new();
         p.FontFamily = renderer.Mono;
-        p.Background = new SolidColorBrush(Color.FromArgb(130, 200, 200, 200));
-        p.Foreground = Brushes.Black;
+        p.Background = new SolidColorBrush(Color.FromArgb(10, 200, 200, 200));
+        p.Foreground = Brushes.LightGray;
 
         p.FontSize = 16;
         renderer.Push(p);
@@ -456,8 +456,8 @@ namespace ModFinder.UI
       {
         Run run = new(obj.Content);
         run.FontFamily = renderer.Mono;
-        run.Background = new SolidColorBrush(Color.FromArgb(130, 200, 200, 200));
-        run.Foreground = Brushes.Black;
+        run.Background = new SolidColorBrush(Color.FromArgb(10, 200, 200, 200));
+        run.Foreground = Brushes.LightGray;
         renderer.WriteInline(run);
       }
     }
