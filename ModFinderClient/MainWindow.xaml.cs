@@ -108,12 +108,9 @@ namespace ModFinder
 
     private static void SetVersionInHeader(string version)
     {
-      Task.Run(() =>
+      Application.Current.Dispatcher.Invoke(() =>
       {
-        Application.Current.Dispatcher.Invoke(() =>
-        {
-          Window.Header.Text += $" - {version}";
-        });
+        Window.Header.Text += $" - {version}";
       });
     }
 
