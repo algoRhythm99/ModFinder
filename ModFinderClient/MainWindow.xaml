@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ModFinder.UI" d:DataContext="{d:DesignInstance Type=local:ModViewModel}"
         mc:Ignorable="d"
-        Title="ModFinder RT" Height="900" Width="1300"
+        Title="ModFinder RT" Height="900" Width="1300" WindowStartupLocation="CenterScreen"
         AllowsTransparency="True" 
         WindowStyle="None"
         Background="Transparent" 
@@ -29,7 +29,7 @@
         <ImageBrush x:Key="button-square-hover" ImageSource="pack://application:,,,/icons/UI_BoxButton_Hover.png" Stretch="Fill"></ImageBrush>
         <ImageBrush x:Key="button-square-click" ImageSource="pack://application:,,,/icons/UI_BoxButton_Click.png" Stretch="Fill"></ImageBrush>
         <ImageBrush x:Key="button-square-disable" ImageSource="pack://application:,,,/icons/UI_BoxButton_Disable.png" Stretch="Fill"></ImageBrush>
-        <ImageBrush x:Key="bg-paper-generic" ImageSource="pack://application:,,,/icons/background.png" Stretch="Fill"></ImageBrush>
+        <ImageBrush x:Key="bg-paper-generic" ImageSource="pack://application:,,,/icons/Background_v2.png" Stretch="Fill"></ImageBrush>
         <ImageBrush x:Key="selected-row-bg" Opacity="0.3" ImageSource="pack://application:,,,/icons/UI_GlobalMap_BackNameShield_Hover.png" Stretch="Fill"></ImageBrush>
         <ImageBrush x:Key="rt-logo" ImageSource="pack://application:,,,/icons/RT_Logo.png" Stretch="Uniform"></ImageBrush>
         <ImageBrush x:Key="rt-logo2" ImageSource="pack://application:,,,/icons/RT_Logo2.png" Stretch="Uniform"></ImageBrush>
@@ -350,51 +350,51 @@
         <DockPanel DockPanel.Dock="Top" Height="32">
             <Rectangle DockPanel.Dock="Right" SnapsToDevicePixels="True" Width="32" Height="32">
                 <Rectangle.Fill>
-                    <ImageBrush ImageSource="pack://application:,,,/icons/background.png" Viewbox="0.95,0,0.05,0.05" />
+                    <ImageBrush ImageSource="pack://application:,,,/icons/Background_v2.png" Viewbox="0.95,0,0.05,0.05" />
                 </Rectangle.Fill>
             </Rectangle>
             <Rectangle DockPanel.Dock="Left" SnapsToDevicePixels="True" Width="32" Height="32">
                 <Rectangle.Fill>
-                    <ImageBrush ImageSource="pack://application:,,,/icons/background.png" Viewbox="0,0,0.05,0.05" />
+                    <ImageBrush ImageSource="pack://application:,,,/icons/Background_v2.png" Viewbox="0,0,0.05,0.05" />
                 </Rectangle.Fill>
             </Rectangle>
             <Rectangle SnapsToDevicePixels="True" Height="32">
                 <Rectangle.Fill>
-                    <ImageBrush ImageSource="pack://application:,,,/icons/background.png" Viewbox="0.05,0,0.9,0.05" />
+                    <ImageBrush ImageSource="pack://application:,,,/icons/Background_v2.png" Viewbox="0.05,0,0.9,0.05" />
                 </Rectangle.Fill>
             </Rectangle>
         </DockPanel>
         <DockPanel DockPanel.Dock="Bottom" Height="32">
             <Rectangle DockPanel.Dock="Right" SnapsToDevicePixels="True" Width="32" Height="32">
                 <Rectangle.Fill>
-                    <ImageBrush ImageSource="pack://application:,,,/icons/background.png" Viewbox="0.95,0.95,0.05,0.05" />
+                    <ImageBrush ImageSource="pack://application:,,,/icons/Background_v2.png" Viewbox="0.95,0.95,0.05,0.05" />
                 </Rectangle.Fill>
             </Rectangle>
             <Rectangle DockPanel.Dock="Left" SnapsToDevicePixels="True" Width="32" Height="32">
                 <Rectangle.Fill>
-                    <ImageBrush ImageSource="pack://application:,,,/icons/background.png" Viewbox="0,0.95,0.05,0.05" />
+                    <ImageBrush ImageSource="pack://application:,,,/icons/Background_v2.png" Viewbox="0,0.95,0.05,0.05" />
                 </Rectangle.Fill>
             </Rectangle>
             <Rectangle SnapsToDevicePixels="True" Height="32">
                 <Rectangle.Fill>
-                    <ImageBrush ImageSource="pack://application:,,,/icons/background.png" Viewbox="0.05,0.95,0.9,0.05" />
+                    <ImageBrush ImageSource="pack://application:,,,/icons/Background_v2.png" Viewbox="0.05,0.95,0.9,0.05" />
                 </Rectangle.Fill>
             </Rectangle>
         </DockPanel>
         <DockPanel>
             <Rectangle DockPanel.Dock="Left" SnapsToDevicePixels="True" Width="32">
                 <Rectangle.Fill>
-                    <ImageBrush ImageSource="pack://application:,,,/icons/background.png" Viewbox="0,0.05,0.05,0.9" />
+                    <ImageBrush ImageSource="pack://application:,,,/icons/Background_v2.png" Viewbox="0,0.05,0.05,0.9" />
                 </Rectangle.Fill>
             </Rectangle>
             <Rectangle DockPanel.Dock="Right" SnapsToDevicePixels="True" Width="32">
                 <Rectangle.Fill>
-                    <ImageBrush ImageSource="pack://application:,,,/icons/background.png" Viewbox="0.95,0.05,0.05,0.90" />
+                    <ImageBrush ImageSource="pack://application:,,,/icons/Background_v2.png" Viewbox="0.95,0.05,0.05,0.90" />
                 </Rectangle.Fill>
             </Rectangle>
             <DockPanel>
                 <DockPanel.Background>
-                    <ImageBrush ImageSource="pack://application:,,,/icons/background.png" Viewbox="0.05,0.05,0.9,0.9" />
+                    <ImageBrush ImageSource="pack://application:,,,/icons/Background_v2.png" Viewbox="0.05,0.05,0.9,0.9" />
                 </DockPanel.Background>
                 <Grid DockPanel.Dock="Top">
                     <Grid.RowDefinitions>
@@ -422,7 +422,7 @@
                         </ColumnDefinition>
 
                     </Grid.ColumnDefinitions>
-                    <TextBlock x:Name="Header" FontSize="30" FontFamily="Constantia" Foreground="LightGray" FontWeight="Bold" Padding="0,0,0,10" Grid.Column="0" Background="{DynamicResource mfrt-logo2}" Grid.RowSpan="2" TextAlignment="Right"/>
+                    <TextBlock x:Name="Header" FontSize="30" FontFamily="./Font/#RogueTraderLogo" Foreground="LightGray" Padding="0,0,0,10" Grid.Column="0" Grid.RowSpan="2" Text="ModFinder   rogue   Trader"/>
                     <TextBox
             Grid.Column="1" x:Name="Filter" Height="34" Width="250" FontFamily="Constantia" VerticalContentAlignment="Center"
             Background="Transparent" Foreground="LightGray" BorderThickness="3" TextBoxBase.TextChanged="Filter_TextChanged" Margin="25,6,25,7" Grid.RowSpan="2">
@@ -714,51 +714,51 @@
                 <DockPanel DockPanel.Dock="Top" Height="32">
                     <Rectangle DockPanel.Dock="Right" SnapsToDevicePixels="True" Width="32" Height="32">
                         <Rectangle.Fill>
-                            <ImageBrush ImageSource="pack://application:,,,/icons/background_PopUp.png" Viewbox="0.95,0,0.05,0.05" />
+                            <ImageBrush ImageSource="pack://application:,,,/icons/Background_PopUp_v2.png" Viewbox="0.95,0,0.05,0.05" />
                         </Rectangle.Fill>
                     </Rectangle>
                     <Rectangle DockPanel.Dock="Left" SnapsToDevicePixels="True" Width="32" Height="32">
                         <Rectangle.Fill>
-                            <ImageBrush ImageSource="pack://application:,,,/icons/background_PopUp.png" Viewbox="0,0,0.05,0.05" />
+                            <ImageBrush ImageSource="pack://application:,,,/icons/Background_PopUp_v2.png" Viewbox="0,0,0.05,0.05" />
                         </Rectangle.Fill>
                     </Rectangle>
                     <Rectangle SnapsToDevicePixels="True" Height="32">
                         <Rectangle.Fill>
-                            <ImageBrush ImageSource="pack://application:,,,/icons/background_PopUp.png" Viewbox="0.05,0,0.9,0.05" />
+                            <ImageBrush ImageSource="pack://application:,,,/icons/Background_PopUp_v2.png" Viewbox="0.05,0,0.9,0.05" />
                         </Rectangle.Fill>
                     </Rectangle>
                 </DockPanel>
                 <DockPanel DockPanel.Dock="Bottom" Height="32">
                     <Rectangle DockPanel.Dock="Right" SnapsToDevicePixels="True" Width="32" Height="32">
                         <Rectangle.Fill>
-                            <ImageBrush ImageSource="pack://application:,,,/icons/background_PopUp.png" Viewbox="0.95,0.95,0.05,0.05" />
+                            <ImageBrush ImageSource="pack://application:,,,/icons/Background_PopUp_v2.png" Viewbox="0.95,0.95,0.05,0.05" />
                         </Rectangle.Fill>
                     </Rectangle>
                     <Rectangle DockPanel.Dock="Left" SnapsToDevicePixels="True" Width="32" Height="32">
                         <Rectangle.Fill>
-                            <ImageBrush ImageSource="pack://application:,,,/icons/background_PopUp.png" Viewbox="0,0.95,0.05,0.05" />
+                            <ImageBrush ImageSource="pack://application:,,,/icons/Background_PopUp_v2.png" Viewbox="0,0.95,0.05,0.05" />
                         </Rectangle.Fill>
                     </Rectangle>
                     <Rectangle SnapsToDevicePixels="True" Height="32">
                         <Rectangle.Fill>
-                            <ImageBrush ImageSource="pack://application:,,,/icons/background_PopUp.png" Viewbox="0.05,0.95,0.9,0.05" />
+                            <ImageBrush ImageSource="pack://application:,,,/icons/Background_PopUp_v2.png" Viewbox="0.05,0.95,0.9,0.05" />
                         </Rectangle.Fill>
                     </Rectangle>
                 </DockPanel>
                 <DockPanel>
                     <Rectangle DockPanel.Dock="Left" SnapsToDevicePixels="True" Width="32">
                         <Rectangle.Fill>
-                            <ImageBrush ImageSource="pack://application:,,,/icons/background_PopUp.png" Viewbox="0,0.05,0.05,0.9" />
+                            <ImageBrush ImageSource="pack://application:,,,/icons/Background_PopUp_v2.png" Viewbox="0,0.05,0.05,0.9" />
                         </Rectangle.Fill>
                     </Rectangle>
                     <Rectangle DockPanel.Dock="Right" SnapsToDevicePixels="True" Width="32">
                         <Rectangle.Fill>
-                            <ImageBrush ImageSource="pack://application:,,,/icons/background_PopUp.png" Viewbox="0.95,0.05,0.05,0.90" />
+                            <ImageBrush ImageSource="pack://application:,,,/icons/Background_PopUp_v2.png" Viewbox="0.95,0.05,0.05,0.90" />
                         </Rectangle.Fill>
                     </Rectangle>
                     <DockPanel>
                         <DockPanel.Background>
-                            <ImageBrush ImageSource="pack://application:,,,/icons/background_PopUp.png" Viewbox="0.05,0.05,0.9,0.9" />
+                            <ImageBrush ImageSource="pack://application:,,,/icons/Background_PopUp_v2.png" Viewbox="0.05,0.05,0.9,0.9" />
                         </DockPanel.Background>
                         <DockPanel>
                             <DockPanel DockPanel.Dock="Top">

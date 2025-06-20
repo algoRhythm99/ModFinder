@@ -8,36 +8,47 @@
     <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
     <RollForward>Major</RollForward>
     <Configurations>Debug;Release;DebugTest</Configurations>
-	<Version>1.5.1</Version>
+	<Version>1.5.2</Version>
 	<IncludeSourceRevisionInInformationalVersion>false</IncludeSourceRevisionInInformationalVersion>
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Aquila1.png" />
-	<None Remove="Aquila2.png" />
-	<None Remove="background.png" />
-	<None Remove="background_PopUp.png" />
-    <None Remove="icons\drop-bg.png" />
-    <None Remove="icons\error.png" />
-    <None Remove="icons\okay.png" />
-    <None Remove="icons\MFRT_Logo.png" />
+	<None Remove="Font\RogueTraderLogo.ttf" />
+	<None Remove="icons\Background_PopUp_v2.png" />
+	<None Remove="icons\Background_v2.png" />
 	<None Remove="icons\MFRT_Logo2.png" />
 	<None Remove="icons\RT_Logo.png" />
 	<None Remove="icons\RT_Logo2.png" />
+    <None Remove="icons\Aquila1.png" />
+    <None Remove="icons\Aquila2.png" />
+    <None Remove="icons\MFRT_Logo.png" />
     <None Remove="icons\UI_BoxButton_Click.png" />
     <None Remove="icons\UI_BoxButton_Default.png" />
     <None Remove="icons\UI_BoxButton_Disable.png" />
     <None Remove="icons\UI_BoxButton_Hover.png" />
+    <None Remove="icons\UI_Button_Click.png" />
+    <None Remove="icons\UI_Button_Default.png" />
+    <None Remove="icons\UI_Button_Disable.png" />
+    <None Remove="icons\UI_Button_Hover.png" />
     <None Remove="icons\UI_GlobalMap_BackNameShield_Hover.png" />
     <None Remove="icons\UI_HudIcon_Book_Active.png" />
     <None Remove="icons\UI_HudIcon_Book_Default.png" />
     <None Remove="icons\UI_HudIcon_Book_Disable.png" />
     <None Remove="icons\UI_HudIcon_Book_Hover.png" />
+    <None Remove="icons\UI_HudIcon_Cancel_Active.png" />
+    <None Remove="icons\UI_HudIcon_Cancel_Default.png" />
+    <None Remove="icons\UI_HudIcon_Cancel_Hover.png" />
     <None Remove="icons\UI_HudIcon_EscAll_Active.png" />
     <None Remove="icons\UI_HudIcon_EscAll_Default.png" />
     <None Remove="icons\UI_HudIcon_EscAll_Disable.png" />
     <None Remove="icons\UI_HudIcon_EscAll_Hover.png" />
+    <None Remove="icons\UI_HudIcon_Inspect_Active.png" />
+    <None Remove="icons\UI_HudIcon_Inspect_Default.png" />
     <None Remove="icons\UI_HudIcon_Inspect_Disable.png" />
+    <None Remove="icons\UI_HudIcon_Inspect_Hover.png" />
+    <None Remove="icons\UI_HudIcon_Settings_Active.png" />
+    <None Remove="icons\UI_HudIcon_Settings_Default.png" />
+    <None Remove="icons\UI_HudIcon_Settings_Hover.png" />
     <None Remove="icons\UI_HudIcon_Story_Active.png" />
     <None Remove="icons\UI_HudIcon_Story_Default.png" />
     <None Remove="icons\UI_HudIcon_Story_Disable.png" />
@@ -47,45 +58,25 @@
     <None Remove="icons\UI_HudIcon_Time_Disable.png" />
     <None Remove="icons\UI_HudIcon_Time_Hover.png" />
     <None Remove="icons\UI_Inventory_CloseButton_Click.png" />
+    <None Remove="icons\UI_Inventory_CloseButton_Default.png" />
     <None Remove="icons\UI_Inventory_CloseButton_Hover.png" />
     <None Remove="icons\UI_Journal_BigMenu_Border.png" />
     <None Remove="icons\UI_Journal_Line.png" />
+    <None Remove="icons\UI_RoundButton_Default.png" />
+    <None Remove="icons\UI_ScrollVertical_Arrow_Click.png" />
+    <None Remove="icons\UI_ScrollVertical_Arrow_Default.png" />
+    <None Remove="icons\UI_ScrollVertical_Arrow_Hover.png" />
+    <None Remove="icons\UI_ScrollVertical_BackLine.png" />
+    <None Remove="icons\UI_ScrollVertical_Handl_Click.png" />
+    <None Remove="icons\UI_ScrollVertical_Handl_Default.png" />
+    <None Remove="icons\UI_ScrollVertical_Handl_Hover.png" />
+    <None Remove="icons\UI_Toggler_BG.png" />
+    <None Remove="icons\drop-bg.png" />
+    <None Remove="icons\error.png" />
+    <None Remove="icons\okay.png" />
     <None Remove="icons\warning.png" />
     <None Remove="test_generated.json" />
     <None Remove="test_master.json" />
-    <None Remove="UI_Button_Click.png" />
-    <None Remove="UI_Button_Default.png" />
-    <None Remove="UI_Button_Disable.png" />
-    <None Remove="UI_Button_Hover.png" />
-    <None Remove="UI_HudIcon_Cancel_Active.png" />
-    <None Remove="UI_HudIcon_Cancel_ActiveHover.png" />
-    <None Remove="UI_HudIcon_Cancel_Default.png" />
-    <None Remove="UI_HudIcon_Cancel_Disable.png" />
-    <None Remove="UI_HudIcon_Cancel_Hover.png" />
-    <None Remove="UI_HudIcon_Inspect_Active.png" />
-    <None Remove="UI_HudIcon_Inspect_ActiveHover.png" />
-    <None Remove="UI_HudIcon_Inspect_Default.png" />
-    <None Remove="UI_HudIcon_Inspect_Disable.png" />
-    <None Remove="UI_HudIcon_Inspect_Hover.png" />
-    <None Remove="UI_HudIcon_Settings_Active.png" />
-    <None Remove="UI_HudIcon_Settings_ActiveHover.png" />
-    <None Remove="UI_HudIcon_Settings_Default.png" />
-    <None Remove="UI_HudIcon_Settings_Disable.png" />
-    <None Remove="UI_HudIcon_Settings_Hover.png" />
-    <None Remove="UI_Inventory_CloseButton_Click.png" />
-    <None Remove="UI_Inventory_CloseButton_Default.png" />
-    <None Remove="UI_Inventory_CloseButton_Hover.png" />
-    <None Remove="UI_RoundButton_Click.png" />
-    <None Remove="UI_RoundButton_Default.png" />
-    <None Remove="UI_RoundButton_Hover.png" />
-    <None Remove="UI_ScrollVertical_Arrow_Click.png" />
-    <None Remove="UI_ScrollVertical_Arrow_Default.png" />
-    <None Remove="UI_ScrollVertical_Arrow_Hover.png" />
-    <None Remove="UI_ScrollVertical_BackLine.png" />
-    <None Remove="UI_ScrollVertical_Handl_Click.png" />
-    <None Remove="UI_ScrollVertical_Handl_Default.png" />
-    <None Remove="UI_ScrollVertical_Handl_Hover.png" />
-    <None Remove="UI_Toggler_BG.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -100,15 +91,15 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="icons\Aquila1.png" />
+	<Resource Include="Font\RogueTraderLogo.ttf" />
 	<Resource Include="icons\Aquila2.png" />
-	<Resource Include="icons\background.png" />
-	<Resource Include="icons\background_PopUp.png" />
+	<Resource Include="icons\Background_PopUp_v2.png" />
+	<Resource Include="icons\Background_v2.png" />
 	<Resource Include="icons\MFRT_Logo.png" />
 	<Resource Include="icons\MFRT_Logo2.png" />
 	<Resource Include="icons\RT_Logo.png" />
 	<Resource Include="icons\RT_Logo2.png" />
-    <Resource Include="icons\drop-bg.png" />
+    <Resource Include="icons\Aquila1.png" />
     <Resource Include="icons\UI_BoxButton_Click.png" />
     <Resource Include="icons\UI_BoxButton_Default.png" />
     <Resource Include="icons\UI_BoxButton_Disable.png" />
@@ -140,14 +131,15 @@
     <Resource Include="icons\UI_HudIcon_Story_Default.png" />
     <Resource Include="icons\UI_HudIcon_Story_Disable.png" />
     <Resource Include="icons\UI_HudIcon_Story_Hover.png" />
+    <Resource Include="icons\UI_HudIcon_Time_Active.png" />
+    <Resource Include="icons\UI_HudIcon_Time_Default.png" />
+    <Resource Include="icons\UI_HudIcon_Time_Disable.png" />
+    <Resource Include="icons\UI_HudIcon_Time_Hover.png" />
     <Resource Include="icons\UI_Inventory_CloseButton_Click.png" />
     <Resource Include="icons\UI_Inventory_CloseButton_Default.png" />
-    <Resource Include="icons\error.png" />
     <Resource Include="icons\UI_Inventory_CloseButton_Hover.png" />
     <Resource Include="icons\UI_Journal_BigMenu_Border.png" />
     <Resource Include="icons\UI_Journal_Line.png" />
-    <Resource Include="icons\warning.png" />
-    <Resource Include="icons\okay.png" />
     <Resource Include="icons\UI_RoundButton_Default.png" />
     <Resource Include="icons\UI_ScrollVertical_Arrow_Click.png" />
     <Resource Include="icons\UI_ScrollVertical_Arrow_Default.png" />
@@ -157,10 +149,10 @@
     <Resource Include="icons\UI_ScrollVertical_Handl_Default.png" />
     <Resource Include="icons\UI_ScrollVertical_Handl_Hover.png" />
     <Resource Include="icons\UI_Toggler_BG.png" />
-    <Resource Include="icons\UI_HudIcon_Time_Active.png" />
-    <Resource Include="icons\UI_HudIcon_Time_Default.png" />
-    <Resource Include="icons\UI_HudIcon_Time_Disable.png" />
-    <Resource Include="icons\UI_HudIcon_Time_Hover.png" />
+    <Resource Include="icons\drop-bg.png" />
+    <Resource Include="icons\error.png" />
+    <Resource Include="icons\okay.png" />
+    <Resource Include="icons\warning.png" />
   </ItemGroup>
 
   <ItemGroup>
