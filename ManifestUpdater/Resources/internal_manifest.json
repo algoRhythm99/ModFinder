@@ -504,7 +504,7 @@
     "Name": "Human Weapons for Eldar",
     "Author": "jonHinkerton",
     "Id": {
-      "Id": "jhHumanWeaponProf ",
+      "Id": "jhHumanWeaponProf",
       "Type": "Owlcat"
     },
     "Service": {
@@ -626,7 +626,7 @@
     "Name": "Origins Of The Expanse",
     "Author": "OdinThePine",
     "Id": {
-      "Id": "OriginsfTheExpanse",
+      "Id": "OriginsOfTheExpanse",
       "Type": "Owlcat"
     },
     "Service": {
