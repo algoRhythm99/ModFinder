@@ -1,833 +1,867 @@
 [
-  // Please keep sorted by Name.
-  {
-    "Name": "Additional Character Names",
-    "Author": "DarthParametric",
-    "Id": {
-      "Id": "DPAdditionalCharacterNames",
-      "Type": "Owlcat"
+    // Please keep sorted by Name.
+    {
+        "Name": "Additional Character Names",
+        "Author": "DarthParametric",
+        "Id": {
+            "Id": "DPAdditionalCharacterNames",
+            "Type": "Owlcat"
+        },
+        "Service": {
+            "Github": {
+                "Owner": "DarthParametric",
+                "RepoName": "RT_Additional_Character_Names"
+            }
+        },
+        "About": "Adds additional random names for the RT and mercenaries in the character creator.",
+        "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/191",
+        "Tags": [ "Miscellaneous", "UserInterface" ]
     },
-    "Service": {
-      "Github": {
-        "Owner": "DarthParametric",
-        "RepoName": "RT_Additional_Character_Names"
-      }
-    },
-    "About": "Adds additional random names for the RT and mercenaries in the character creator.",
-    "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/191",
-    "Tags": [ "Miscellaneous", "UserInterface" ]
-  },
 
-  {
-    "Name": "Additional Reactivity",
-    "Author": "juliabel",
-    "Id": {
-      "Id": "AddReactivityProlog",
-      "Type": "Owlcat"
+    {
+        "Name": "Additional Ship Names",
+        "Author": "DarthParametric",
+        "Id": {
+            "Id": "DPAdditionalShipNames",
+            "Type": "Owlcat"
+        },
+        "Service": {
+            "Github": {
+                "Owner": "DarthParametric",
+                "RepoName": "RT_Additional_Ship_Names"
+            }
+        },
+        "About": "Adds additional random names for the player's ship in the character creator.",
+        "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/192",
+        "Tags": [ "Miscellaneous", "UserInterface" ]
     },
-    "Service": {
-      "Nexus": {
-        "ModID": "132"
-      }
-    },
-    "About": "Additional reactivity for character backgrounds. English and russian languages. ",
-    "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/132",
-    "Tags": [ "Gameplay" ]
-  },
 
-  {
-    "Name": "Additional Ship Names",
-    "Author": "DarthParametric",
-    "Id": {
-      "Id": "DPAdditionalShipNames",
-      "Type": "Owlcat"
+    {
+        "Name": "Adepta Sororitas Sabbat-Pattern Helmets",
+        "Author": "DarthParametric",
+        "Id": {
+            "Id": "DPAdeptaSororitasSabbatHelmet",
+            "Type": "Owlcat"
+        },
+        "Service": {
+            "Github": {
+                "Owner": "DarthParametric",
+                "RepoName": "RT_Adepta_Sororitas_Sabbat_Pattern_Helmets"
+            }
+        },
+        "About": "Adds several Sabbat-pattern helmets for Argenta (or mod-added Sororitas background RTs) throughout the game.",
+        "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/178",
+        "Tags": [ "Visuals" ]
     },
-    "Service": {
-      "Github": {
-        "Owner": "DarthParametric",
-        "RepoName": "RT_Additional_Ship_Names"
-      }
-    },
-    "About": "Adds additional random names for the player's ship in the character creator.",
-    "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/192",
-    "Tags": [ "Miscellaneous", "UserInterface" ]
-  },
 
-  {
-    "Name": "Adepta Sororitas Sabbat-Pattern Helmets",
-    "Author": "DarthParametric",
-    "Id": {
-      "Id": "DPAdeptaSororitasSabbatHelmet",
-      "Type": "Owlcat"
+    {
+        "Name": "Administratum Sage Origin",
+        "Author": "jonHinkerton",
+        "Id": {
+            "Id": "jhSage",
+            "Type": "Owlcat"
+        },
+        "Service": {
+            "Nexus": {
+                "ModID": "190"
+            }
+        },
+        "About": "Adds a human computer background to the game",
+        "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/190",
+        "Tags": [ "Gameplay" ]
     },
-    "Service": {
-      "Github": {
-        "Owner": "DarthParametric",
-        "RepoName": "RT_Adepta_Sororitas_Sabbat_Pattern_Helmets"
-      }
-    },
-    "About": "Adds several Sabbat-pattern helmets for Argenta (or mod-added Sororitas background RTs) throughout the game.",
-    "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/178",
-    "Tags": [ "Visuals" ]
-  },
 
-  {
-    "Name": "Administratum Sage Origin",
-    "Author": "jonHinkerton",
-    "Id": {
-      "Id": "jhSage",
-      "Type": "Owlcat"
+    {
+        "Name": "Allow Modded Achievements",
+        "Author": "AlterAsc",
+        "Id": {
+            "Id": "AllowModdedAchievements",
+            "Type": "UMM"
+        },
+        "Service": {
+            "Github": {
+                "Owner": "alterasc",
+                "RepoName": "RT_AllowModdedAchievements"
+            }
+        },
+        "About": "Separate mod to allow achievements while modded.",
+        "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/4",
+        "Tags": [ "Gameplay", "Utilities" ]
     },
-    "Service": {
-      "Nexus": {
-        "ModID": "190"
-      }
-    },
-    "About": "Adds a human computer background to the game",
-    "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/190",
-    "Tags": [ "Gameplay" ]
-  },
 
-  {
-    "Name": "Allow Modded Achievements",
-    "Author": "AlterAsc",
-    "Id": {
-      "Id": "AllowModdedAchievements",
-      "Type": "UMM"
+    {
+        "Name": "Arc Rifles As Plasma",
+        "Author": "jonHinkerton",
+        "Id": {
+            "Id": "jhArcPlasma",
+            "Type": "Owlcat"
+        },
+        "Service": {
+            "Nexus": {
+                "ModID": "201"
+            }
+        },
+        "About": "Makes arc rifles members of the plasma family so that mechanicus/forge world characters can make the most of these distinctively admech weapons.",
+        "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/201",
+        "Tags": [ "Gameplay" ]
     },
-    "Service": {
-      "Github": {
-        "Owner": "alterasc",
-        "RepoName": "RT_AllowModdedAchievements"
-      }
-    },
-    "About": "Separate mod to allow achievements while modded.",
-    "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/4",
-    "Tags": [ "Gameplay", "Utilities" ]
-  },
 
-  {
-    "Name": "Arc Rifles As Plasma",
-    "Author": "jonHinkerton",
-    "Id": {
-      "Id": "jhArcPlasma",
-      "Type": "Owlcat"
+    {
+        "Name": "Banters Diversity",
+        "Author": "juliabel",
+        "Id": {
+            "Id": "BantersDiversity",
+            "Type": "Owlcat"
+        },
+        "Service": {
+            "Nexus": {
+                "ModID": "234"
+            }
+        },
+        "About": "Banters for the Banter God! Больше бантеров Богу Бантеров! ",
+        "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/234",
+        "Tags": [ "Utilities" ]
     },
-    "Service": {
-      "Nexus": {
-        "ModID": "201"
-      }
-    },
-    "About": "Makes arc rifles members of the plasma family so that mechanicus/forge world characters can make the most of these distinctively admech weapons.",
-    "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/201",
-    "Tags": [ "Gameplay" ]
-  },
 
-  {
-    "Name": "Banters Diversity",
-    "Author": "juliabel",
-    "Id": {
-      "Id": "BantersDiversity",
-      "Type": "Owlcat"
+    {
+        "Name": "Batteries in Pairs",
+        "Author": "jonHinkerton",
+        "Id": {
+            "Id": "jhBatteriesInPairs",
+            "Type": "Owlcat"
+        },
+        "Service": {
+            "Nexus": {
+                "ModID": "210"
+            }
+        },
+        "About": "Gives matching pairs of broadside batteries rather than singles.",
+        "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/210",
+        "Tags": [ "Gameplay" ]
     },
-    "Service": {
-      "Nexus": {
-        "ModID": "234"
-      }
-    },
-    "About": "Banters for the Banter God! Больше бантеров Богу Бантеров! ",
-    "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/234",
-    "Tags": [ "Utilities" ]
-  },
 
-  {
-    "Name": "Batteries in Pairs",
-    "Author": "jonHinkerton",
-    "Id": {
-      "Id": "jhBatteriesInPairs",
-      "Type": "Owlcat"
+    {
+        "Name": "Better Escort Ships",
+        "Author": "jonHinkerton",
+        "Id": {
+            "Id": "jhBetterWingmen",
+            "Type": "Owlcat"
+        },
+        "Service": {
+            "Nexus": {
+                "ModID": "189"
+            }
+        },
+        "About": "Improve the escort ships so they can actually be helpful.",
+        "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/189",
+        "Tags": [ "Gameplay" ]
     },
-    "Service": {
-      "Nexus": {
-        "ModID": "210"
-      }
-    },
-    "About": "Gives matching pairs of broadside batteries rather than singles.",
-    "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/210",
-    "Tags": [ "Gameplay" ]
-  },
 
-  {
-    "Name": "Better Escort Ships",
-    "Author": "jonHinkerton",
-    "Id": {
-      "Id": "jhBetterWingmen",
-      "Type": "Owlcat"
+    {
+        "Name": "Better Jae Talents",
+        "Author": "Mawootad",
+        "Id": {
+            "Id": "BetterJaeBuild",
+            "Type": "UMM"
+        },
+        "Service": {
+            "Nexus": {
+                "ModID": "143"
+            }
+        },
+        "About": "Makes Jae's officer talents not a complete garbage fire  ",
+        "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/143",
+        "Tags": [ "Gameplay", "Utilities" ]
     },
-    "Service": {
-      "Nexus": {
-        "ModID": "189"
-      }
-    },
-    "About": "Improve the escort ships so they can actually be helpful.",
-    "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/189",
-    "Tags": [ "Gameplay" ]
-  },
 
-  {
-    "Name": "Better Jae Talents",
-    "Author": "Mawootad",
-    "Id": {
-      "Id": "BetterJaeBuild",
-      "Type": "UMM"
+    {
+        "Name": "Better Type Sorting",
+        "Author": "Arkive",
+        "Id": {
+            "Id": "BetterTypeSorting",
+            "Type": "UMM"
+        },
+        "Service": {
+            "Nexus": {
+                "ModID": "94"
+            }
+        },
+        "About": "This UMM mod patches inventory type sorting, so it sorts by subtypes, families, catgories, handedness, etc within weapons and armor categories ",
+        "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/94",
+        "Tags": [ "Utilities" ]
     },
-    "Service": {
-      "Nexus": {
-        "ModID": "143"
-      }
-    },
-    "About": "Makes Jae's officer talents not a complete garbage fire  ",
-    "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/143",
-    "Tags": [ "Gameplay", "Utilities" ]
-  },
 
-  {
-    "Name": "Better Type Sorting",
-    "Author": "Arkive",
-    "Id": {
-      "Id": "BetterTypeSorting",
-      "Type": "UMM"
+    {
+        "Name": "Bigger Flagship",
+        "Author": "jonHinkerton",
+        "Id": {
+            "Id": "BiggerShip",
+            "Type": "UMM"
+        },
+        "Service": {
+            "Nexus": {
+                "ModID": "167"
+            }
+        },
+        "About": "Increases the visual size of your flagship to make it more impressive.",
+        "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/167",
+        "Tags": [ "Utilities" ]
     },
-    "Service": {
-      "Nexus": {
-        "ModID": "94"
-      }
-    },
-    "About": "This UMM mod patches inventory type sorting, so it sorts by subtypes, families, catgories, handedness, etc within weapons and armor categories ",
-    "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/94",
-    "Tags": [ "Utilities" ]
-  },
 
-  {
-    "Name": "Bigger Flagship",
-    "Author": "jonHinkerton",
-    "Id": {
-      "Id": "BiggerShip",
-      "Type": "UMM"
+    {
+        "Name": "Build All Projects",
+        "Author": "jonHinkerton",
+        "Id": {
+            "Id": "NoBlockingProjects",
+            "Type": "UMM"
+        },
+        "Service": {
+            "Nexus": {
+                "ModID": "187"
+            }
+        },
+        "About": "Do you like colony projects? Do you really like colony projects? Do you hate picking which mutually exclusive project to build? Do you want to build every colony project? \nThis mod unlocks the projects that are normally blocked by building another project. Go nuts.",
+        "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/187",
+        "Tags": [ "Utilities" ]
     },
-    "Service": {
-      "Nexus": {
-        "ModID": "167"
-      }
-    },
-    "About": "Increases the visual size of your flagship to make it more impressive.",
-    "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/167",
-    "Tags": [ "Utilities" ]
-  },
 
-  {
-    "Name": "Build All Projects",
-    "Author": "jonHinkerton",
-    "Id": {
-      "Id": "NoBlockingProjects",
-      "Type": "UMM"
+    {
+        "Name": "Cold Trader Origin",
+        "Author": "jonHinkerton",
+        "Id": {
+            "Id": "jhColdTrader",
+            "Type": "Owlcat"
+        },
+        "Service": {
+            "Nexus": {
+                "ModID": "163"
+            }
+        },
+        "About": "Play your Rogue Trader or custom companions as the Cold Trader origin exclusive to Jae.",
+        "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/163",
+        "Tags": [ "Gameplay" ]
     },
-    "Service": {
-      "Nexus": {
-        "ModID": "187"
-      }
-    },
-    "About": "Do you like colony projects? Do you really like colony projects? Do you hate picking which mutually exclusive project to build? Do you want to build every colony project? \nThis mod unlocks the projects that are normally blocked by building another project. Go nuts.",
-    "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/187",
-    "Tags": [ "Utilities" ]
-  },
 
-  {
-    "Name": "Cold Trader Origin",
-    "Author": "jonHinkerton",
-    "Id": {
-      "Id": "jhColdTrader",
-      "Type": "Owlcat"
+    {
+        "Name": "Commissar Unleashed",
+        "Author": "Page",
+        "Id": {
+            "Id": "CommissarUnleashed",
+            "Type": "Owlcat"
+        },
+        "Service": {
+            "Nexus": {
+                "ModID": "267"
+            }
+        },
+        "About": "New talents for the Commissar origin and a rework of its main ability.",
+        "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/267",
+        "Tags": [ "Gameplay" ]
     },
-    "Service": {
-      "Nexus": {
-        "ModID": "163"
-      }
-    },
-    "About": "APlay your Rogue Trader or custom companions as the Cold Trader origin exclusive to Jae.",
-    "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/163",
-    "Tags": [ "Gameplay" ]
-  },
 
-  {
-    "Name": "Custom Escorts",
-    "Author": "jonHinkerton",
-    "Id": {
-      "Id": "jhCustomEscorts",
-      "Type": "UMM"
+    {
+        "Name": "Custom Escorts",
+        "Author": "jonHinkerton",
+        "Id": {
+            "Id": "jhCustomEscorts",
+            "Type": "UMM"
+        },
+        "Service": {
+            "Nexus": {
+                "ModID": "219"
+            }
+        },
+        "About": "Change the visual appearance of your escort ships to any of a number of options.",
+        "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/219",
+        "Tags": [ "Utilities" ]
     },
-    "Service": {
-      "Nexus": {
-        "ModID": "219"
-      }
-    },
-    "About": "Change the visual appearance of your escort ships to any of a number of options.",
-    "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/219",
-    "Tags": [ "Utilities" ]
-  },
 
-  {
-    "Name": "Custom Flagship",
-    "Author": "jonHinkerton",
-    "Id": {
-      "Id": "CustomFlagship",
-      "Type": "UMM"
+    {
+        "Name": "Custom Flagship",
+        "Author": "jonHinkerton",
+        "Id": {
+            "Id": "CustomFlagship",
+            "Type": "UMM"
+        },
+        "Service": {
+            "Nexus": {
+                "ModID": "185"
+            }
+        },
+        "About": "If you've always wanted to cruise around the expanse in Calligos's big cruiser, here's your chance. This is a replacer for the appearance of the flagship in space battles. All the mechanics of the ship are untouched.,",
+        "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/185",
+        "Tags": [ "Utilities" ]
     },
-    "Service": {
-      "Nexus": {
-        "ModID": "185"
-      }
-    },
-    "About": "If you've always wanted to cruise around the expanse in Calligos's big cruiser, here's your chance. This is a replacer for the appearance of the flagship in space battles. All the mechanics of the ship are untouched.,",
-    "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/185",
-    "Tags": [ "Utilities" ]
-  },
 
-  {
-    "Name": "Disable Cutscene Overlay",
-    "Author": "Hambeard",
-    "Id": {
-      "Id": "DisableCSO",
-      "Type": "UMM"
+    {
+        "Name": "Disable Cutscene Overlay",
+        "Author": "Hambeard",
+        "Id": {
+            "Id": "DisableCSO",
+            "Type": "UMM"
+        },
+        "Service": {
+            "Github": {
+                "Owner": "thehambeard",
+                "RepoName": "RTDisableCutsceneOverlay"
+            }
+        },
+        "About": "This mod will disable the annoying (IMO) camera overlay leaving you with a cleaner view.  I still like the letterbox effect but there is an option in UMM Menu (ctrl+f10) to disable letterboxing as well.",
+        "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/116",
+        "Tags": [ "Utilities" ]
     },
-    "Service": {
-      "Github": {
-        "Owner": "thehambeard",
-        "RepoName": "RTDisableCutsceneOverlay"
-      }
-    },
-    "About": "This mod will disable the annoying (IMO) camera overlay leaving you with a cleaner view.  I still like the letterbox effect but there is an option in UMM Menu (ctrl+f10) to disable letterboxing as well.",
-    "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/116",
-    "Tags": [ "Utilities" ]
-  },
 
-  {
-    "Name": "Enhanced Controls",
-    "Author": "AlterAsc",
-    "Id": {
-      "Id": "EnhancedControls",
-      "Type": "UMM"
+    {
+        "Name": "Enhanced Controls",
+        "Author": "AlterAsc",
+        "Id": {
+            "Id": "EnhancedControls",
+            "Type": "UMM"
+        },
+        "Service": {
+            "Github": {
+                "Owner": "alterasc",
+                "RepoName": "EnhancedControls"
+            }
+        },
+        "About": "Adds couple of new keybindings",
+        "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/14",
+        "Tags": [ "Gameplay", "Utilities" ]
     },
-    "Service": {
-      "Github": {
-        "Owner": "alterasc",
-        "RepoName": "EnhancedControls"
-      }
-    },
-    "About": "Adds couple of new keybindings",
-    "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/14",
-    "Tags": [ "Gameplay", "Utilities" ]
-  },
 
-  {
-    "Name": "Equipment Transmog",
-    "Author": "ADDB",
-    "Id": {
-      "Id": "RTTransmog",
-      "Type": "UMM"
+    {
+        "Name": "Equipment Transmog",
+        "Author": "ADDB",
+        "Id": {
+            "Id": "RTTransmog",
+            "Type": "UMM"
+        },
+        "Service": {
+            "Nexus": {
+                "ModID": "135"
+            }
+        },
+        "About": "Allows picking the visual equipment for a slot separately from actual equipment.",
+        "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/135",
+        "Tags": [ "Utilities" ]
     },
-    "Service": {
-      "Nexus": {
-        "ModID": "135"
-      }
-    },
-    "About": "Allows picking the visual equipment for a slot separately from actual equipment.",
-    "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/135",
-    "Tags": [ "Utilities" ]
-  },
 
-  {
-    "Name": "Expanded Archetypes",
-    "Author": "jonHinkerton",
-    "Id": {
-      "Id": "jhExpandedArchetypes",
-      "Type": "Owlcat"
+    {
+        "Name": "Expanded Archetypes",
+        "Author": "jonHinkerton",
+        "Id": {
+            "Id": "jhExpandedArchetypes",
+            "Type": "Owlcat"
+        },
+        "Service": {
+            "Nexus": {
+                "ModID": "177"
+            }
+        },
+        "About": "Expanded Archetypes is a project to add new abilities and talents to the existing character class archetypes in Rogue Trader. The goal is to provide novelty, added variety, and more interesting build decisions.",
+        "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/177",
+        "Tags": [ "Content" ]
     },
-    "Service": {
-      "Nexus": {
-        "ModID": "177"
-      }
-    },
-    "About": "Expanded Archetypes is a project to add new abilities and talents to the existing character class archetypes in Rogue Trader. The goal is to provide novelty, added variety, and more interesting build decisions.",
-    "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/177",
-    "Tags": [ "Content" ]
-  },
 
-  {
-    "Name": "Expanded Colony Projects",
-    "Author": "jonHinkerton",
-    "Id": {
-      "Id": "jhColonyProjects",
-      "Type": "Owlcat"
+    {
+        "Name": "Expanded Colony Projects",
+        "Author": "jonHinkerton",
+        "Id": {
+            "Id": "jhColonyProjects",
+            "Type": "Owlcat"
+        },
+        "Service": {
+            "Nexus": {
+                "ModID": "180"
+            }
+        },
+        "About": "More projects to keep your colonies busy with.",
+        "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/180",
+        "Tags": [ "Content" ]
     },
-    "Service": {
-      "Nexus": {
-        "ModID": "180"
-      }
-    },
-    "About": "More projects to keep your colonies busy with.",
-    "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/180",
-    "Tags": [ "Content" ]
-  },
 
-  {
-    "Name": "Faster Loading Times",
-    "Author": "Seamato",
-    "Id": {
-      "Id": "FasterLoadingTimes",
-      "Type": "UMM"
+    {
+        "Name": "Faster Loading Times",
+        "Author": "Seamato",
+        "Id": {
+            "Id": "FasterLoadingTimes",
+            "Type": "UMM"
+        },
+        "Service": {
+            "Github": {
+                "Owner": "cstamford",
+                "RepoName": "FasterLoadingTimes"
+            }
+        },
+        "About": "Reduces loading times in Rogue Trader by up to 50%, depending on your specific hardware. Especially noticeable for saves in later acts. Let me know how much of an improvement you see! ",
+        "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/182",
+        "Tags": [ "Utilities" ]
     },
-    "Service": {
-      "Github": {
-        "Owner": "cstamford",
-        "RepoName": "FasterLoadingTimes"
-      }
-    },
-    "About": "Reduces loading times in Rogue Trader by up to 50%, depending on your specific hardware. Especially noticeable for saves in later acts. Let me know how much of an improvement you see! ",
-    "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/182",
-    "Tags": [ "Utilities" ]
-  },
 
-  {
-    "Name": "Fix Cold Trader's Acumen",
-    "Author": "Mawootad",
-    "Id": {
-      "Id": "RTNuget",
-      "Type": "UMM"
+    {
+        "Name": "Fix Cold Trader's Acumen",
+        "Author": "Mawootad",
+        "Id": {
+            "Id": "RTNuget",
+            "Type": "UMM"
+        },
+        "Service": {
+            "Nexus": {
+                "ModID": "142"
+            }
+        },
+        "About": "Fixes Jae's Cold Trader's Acumen origin talent to give the listed bonuses to skills. ",
+        "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/142",
+        "Tags": [ "Utilities" ]
     },
-    "Service": {
-      "Nexus": {
-        "ModID": "142"
-      }
-    },
-    "About": "Fixes Jae's Cold Trader's Acumen origin talent to give the listed bonuses to skills. ",
-    "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/142",
-    "Tags": [ "Utilities" ]
-  },
 
-  {
-    "Name": "Flame Weapon Expert Fix",
-    "Author": "Seroster",
-    "Id": {
-      "Id": "Flamer Fix 2",
-      "Type": "Owlcat"
+    {
+        "Name": "Flame Weapon Expert Fix",
+        "Author": "Seroster",
+        "Id": {
+            "Id": "Flamer Fix 2",
+            "Type": "Owlcat"
+        },
+        "Service": {
+            "Nexus": {
+                "ModID": "171"
+            }
+        },
+        "About": "A small fix for Flame Weapon Expert not affecting 3 of the unique flamers.  ",
+        "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/171",
+        "Tags": [ "Utilities" ]
     },
-    "Service": {
-      "Nexus": {
-        "ModID": "171"
-      }
-    },
-    "About": "A small fix for Flame Weapon Expert not affecting 3 of the unique flamers.  ",
-    "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/171",
-    "Tags": [ "Utilities" ]
-  },
 
-  {
-    "Name": "Free Respec",
-    "Author": "ADDB",
-    "Id": {
-      "Id": "FreeRespec",
-      "Type": "UMM"
+    {
+        "Name": "Free Respec",
+        "Author": "ADDB",
+        "Id": {
+            "Id": "FreeRespec",
+            "Type": "UMM"
+        },
+        "Service": {
+            "Nexus": {
+                "ModID": "105"
+            }
+        },
+        "About": "Allows changing the Respec Cost Behaviour.",
+        "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/105",
+        "Tags": [ "Utilities" ]
     },
-    "Service": {
-      "Nexus": {
-        "ModID": "105"
-      }
-    },
-    "About": "Allows changing the Respec Cost Behaviour.",
-    "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/105",
-    "Tags": [ "Utilities" ]
-  },
 
-  {
-    "Name": "Heavy Bolter Patterned Variants",
-    "Author": "Ezfimods",
-    "Id": {
-      "Id": "EzfiPatternedHeavyBolters",
-      "Type": "Owlcat"
+    {
+        "Name": "Heavy Bolter Patterned Variants",
+        "Author": "Ezfimods",
+        "Id": {
+            "Id": "EzfiPatternedHeavyBolters",
+            "Type": "Owlcat"
+        },
+        "Service": {
+            "Nexus": {
+                "ModID": "168"
+            }
+        },
+        "About": "Adds four additional Heavy Bolters to the game. All are available to purchase from the Drusians. Safe to install into existing save files. ",
+        "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/168",
+        "Tags": [ "Content" ]
     },
-    "Service": {
-      "Nexus": {
-        "ModID": "168"
-      }
-    },
-    "About": "Adds four additional Heavy Bolters to the game. All are available to purchase from the Drusians. Safe to install into existing save files. ",
-    "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/168",
-    "Tags": [ "Content" ]
-  },
 
-  {
-    "Name": "Heavy Gunner AP Cost Fix",
-    "Author": "Mawootad",
-    "Id": {
-      "Id": "FixHeavyGunner",
-      "Type": "UMM"
+    {
+        "Name": "Heavy Gunner AP Cost Fix",
+        "Author": "Mawootad",
+        "Id": {
+            "Id": "FixHeavyGunner",
+            "Type": "UMM"
+        },
+        "Service": {
+            "Nexus": {
+                "ModID": "145"
+            }
+        },
+        "About": "Fixes Heavy Gunner and related talents increasing the cost of attacks ",
+        "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/145",
+        "Tags": [ "Utilities" ]
     },
-    "Service": {
-      "Nexus": {
-        "ModID": "145"
-      }
-    },
-    "About": "Fixes Heavy Gunner and related talents increasing the cost of attacks ",
-    "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/145",
-    "Tags": [ "Utilities" ]
-  },
 
-  {
-    "Name": "Homeworlds of the Expanse",
-    "Author": "OdinThePine",
-    "Id": {
-      "Id": "HomeworldsOfTheExpanse",
-      "Type": "Owlcat"
+    {
+        "Name": "Helms of Fenris",
+        "Author": "Page",
+        "Id": {
+            "Id": "HelmsOfFenrisMod",
+            "Type": "Owlcat"
+        },
+        "Service": {
+            "Nexus": {
+                "ModID": "261"
+            }
+        },
+        "About": "This mod adds two new Astartes helmets for Ulfar, there are no new models this mod only reuses existing ingame models.",
+        "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/261",
+        "Tags": [ "Content" ]
     },
-    "Service": {
-      "Nexus": {
-        "ModID": "181"
-      }
-    },
-    "About": "This mod expands the selection of Homeworlds available during character creation by introducing new custom options inspired by the game's original manuals. Each world is lore-friendly and emphasizes a specific playstyle or theme. ",
-    "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/181",
-    "Tags": [ "Content" ]
-  },
 
-  {
-    "Name": "Human Weapons for Eldar",
-    "Author": "jonHinkerton",
-    "Id": {
-      "Id": "jhHumanWeaponProf",
-      "Type": "Owlcat"
+    {
+        "Name": "Homeworlds of the Expanse",
+        "Author": "OdinThePine",
+        "Id": {
+            "Id": "HomeworldsOfTheExpanse",
+            "Type": "Owlcat"
+        },
+        "Service": {
+            "Nexus": {
+                "ModID": "181"
+            }
+        },
+        "About": "This mod expands the selection of Homeworlds available during character creation by introducing new custom options inspired by the game's original manuals. Each world is lore-friendly and emphasizes a specific playstyle or theme. ",
+        "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/181",
+        "Tags": [ "Content" ]
     },
-    "Service": {
-      "Nexus": {
-        "ModID": "197"
-      }
-    },
-    "About": "Human Weapon Proficiency talent for eldar companions.",
-    "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/197",
-    "Tags": [ "Gameplay" ]
-  },
 
-  {
-    "Name": "Medicae Archetype",
-    "Author": "jonHinkerton",
-    "Id": {
-      "Id": "jhMedicae",
-      "Type": "Owlcat"
+    {
+        "Name": "Human Weapons for Eldar",
+        "Author": "jonHinkerton",
+        "Id": {
+            "Id": "jhHumanWeaponProf",
+            "Type": "Owlcat"
+        },
+        "Service": {
+            "Nexus": {
+                "ModID": "197"
+            }
+        },
+        "About": "Human Weapon Proficiency talent for eldar companions.",
+        "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/197",
+        "Tags": [ "Gameplay" ]
     },
-    "Service": {
-      "Nexus": {
-        "ModID": "208"
-      }
-    },
-    "About": "A new tier 1 archetype with a focus on healing and party buffs. ",
-    "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/208",
-    "Tags": [ "Gameplay" ]
-  },
 
-  {
-    "Name": "MicroPatches",
-    "Author": "Microsoftenator",
-    "Id": {
-      "Id": "MicroPatches",
-      "Type": "UMM"
+    {
+        "Name": "Medicae Archetype",
+        "Author": "jonHinkerton",
+        "Id": {
+            "Id": "jhMedicae",
+            "Type": "Owlcat"
+        },
+        "Service": {
+            "Nexus": {
+                "ModID": "208"
+            }
+        },
+        "About": "A new tier 1 archetype with a focus on healing and party buffs. ",
+        "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/208",
+        "Tags": [ "Gameplay" ]
     },
-    "Service": {
-      "Github": {
-        "Owner": "microsoftenator2022",
-        "RepoName": "MicroPatches",
-        "ReleaseFilter": "MicroPatches\\-Mod"
-      }
-    },
-    "About": "Tiny patches attempting to fix minor bugs and silence annoying log messages. Experimental patches require more testing and can be toggled in the mod settings (requires restart to take effect). If you encounter any issues with an experimental patch, let me know in the issues on this repository.",
-    "HomepageUrl": "https://github.com/microsoftenator2022/MicroPatches",
-    "Tags": [ "Utilities" ]
-  },
 
-  {
-    "Name": "MorePartySlotsRT",
-    "Author": "ADDB",
-    "Id": {
-      "Id": "MorePartySlotsRT",
-      "Type": "UMM"
+    {
+        "Name": "MicroPatches",
+        "Author": "Microsoftenator",
+        "Id": {
+            "Id": "MicroPatches",
+            "Type": "UMM"
+        },
+        "Service": {
+            "Github": {
+                "Owner": "microsoftenator2022",
+                "RepoName": "MicroPatches",
+                "ReleaseFilter": "MicroPatches\\-Mod"
+            }
+        },
+        "About": "Tiny patches attempting to fix minor bugs and silence annoying log messages. Experimental patches require more testing and can be toggled in the mod settings (requires restart to take effect). If you encounter any issues with an experimental patch, let me know in the issues on this repository.",
+        "HomepageUrl": "https://github.com/microsoftenator2022/MicroPatches",
+        "Tags": [ "Utilities" ]
     },
-    "Service": {
-      "Github": {
-        "Owner": "xADDBx",
-        "RepoName": "MorePartySlotsRT"
-      }
-    },
-    "About": "Increase the amount of party slots (this does not affect visual slots; it will only allow adding more members to the party). ",
-    "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/165",
-    "Tags": [ "Utilities" ]
-  },
 
-  {
-    "Name": "No Capes",
-    "Author": "jonHinkerton",
-    "Id": {
-      "Id": "jhNoCloaks",
-      "Type": "UMM"
+    {
+        "Name": "MorePartySlotsRT",
+        "Author": "ADDB",
+        "Id": {
+            "Id": "MorePartySlotsRT",
+            "Type": "UMM"
+        },
+        "Service": {
+            "Github": {
+                "Owner": "xADDBx",
+                "RepoName": "MorePartySlotsRT"
+            }
+        },
+        "About": "Increase the amount of party slots (this does not affect visual slots; it will only allow adding more members to the party). ",
+        "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/165",
+        "Tags": [ "Utilities" ]
     },
-    "Service": {
-      "Nexus": {
-        "ModID": "221"
-      }
-    },
-    "About": "No Capes - Edna Mode",
-    "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/221",
-    "Tags": [ "Utilities" ]
-  },
 
-  {
-    "Name": "No Weapons On Backs",
-    "Author": "jonHinkerton",
-    "Id": {
-      "Id": "jhNoBackGuns",
-      "Type": "UMM"
+    {
+        "Name": "No Capes",
+        "Author": "jonHinkerton",
+        "Id": {
+            "Id": "jhNoCloaks",
+            "Type": "UMM"
+        },
+        "Service": {
+            "Nexus": {
+                "ModID": "221"
+            }
+        },
+        "About": "No Capes - Edna Mode",
+        "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/221",
+        "Tags": [ "Utilities" ]
     },
-    "Service": {
-      "Nexus": {
-        "ModID": "223"
-      }
-    },
-    "About": "Hides inactive weapons on character backs",
-    "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/223",
-    "Tags": [ "Utilities" ]
-  },
-  
-  {
-    "Name": "One Handed Staves",
-    "Author": "Xurlglurlblu",
-    "Id": {
-      "Id": "OneHandedStaves",
-      "Type": "Owlcat"
-    },
-    "Service": {
-      "Nexus": {
-        "ModID": "175"
-      }
-    },
-    "About": "Makes Psyker and Navigator staves one-handed",
-    "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/175",
-    "Tags": [ "Gameplay" ]
-  },
 
-  {
-    "Name": "Origins Of The Expanse",
-    "Author": "OdinThePine",
-    "Id": {
-      "Id": "OriginsOfTheExpanse",
-      "Type": "Owlcat"
+    {
+        "Name": "No Weapons On Backs",
+        "Author": "jonHinkerton",
+        "Id": {
+            "Id": "jhNoBackGuns",
+            "Type": "UMM"
+        },
+        "Service": {
+            "Nexus": {
+                "ModID": "223"
+            }
+        },
+        "About": "Hides inactive weapons on character backs",
+        "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/223",
+        "Tags": [ "Utilities" ]
     },
-    "Service": {
-      "Nexus": {
-        "ModID": "188"
-      }
-    },
-    "About": "Add new homebrewed, lore-friendly custom Origins - Pariah, Augmenticist.",
-    "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/188",
-    "Tags": [ "Gameplay" ]
-  },
 
-  {
-    "Name": "Playable X",
-    "Author": "ADDB",
-    "Id": {
-      "Id": "PlayableX",
-      "Type": "UMM"
+    {
+        "Name": "One Handed Staves",
+        "Author": "Xurlglurlblu",
+        "Id": {
+            "Id": "OneHandedStaves",
+            "Type": "Owlcat"
+        },
+        "Service": {
+            "Nexus": {
+                "ModID": "175"
+            }
+        },
+        "About": "Makes Psyker and Navigator staves one-handed",
+        "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/175",
+        "Tags": [ "Gameplay" ]
     },
-    "Service": {
-      "Github": {
-        "Owner": "xADDBx",
-        "RepoName": "PlayableX"
-      }
-    },
-    "About": "Makes the Navigator, Tech-Priest and Adepta Sororitas origins pickeable for your Rogue Trader at Game Start. This might also enable you to recruit multiple Navigators mercenaries.",
-    "HomepageUrl": "https://github.com/xADDBx/PlayableX",
-    "Tags": [ "Gameplay", "Content" ]
-  },
 
-  {
-    "Name": "Player Gender Override",
-    "Author": "Microsoftenator",
-    "Id": {
-      "Id": "PlayerGenderOverride",
-      "Type": "UMM"
+    {
+        "Name": "Origins Of The Expanse",
+        "Author": "OdinThePine",
+        "Id": {
+            "Id": "OriginsOfTheExpanse",
+            "Type": "Owlcat"
+        },
+        "Service": {
+            "Nexus": {
+                "ModID": "188"
+            }
+        },
+        "About": "Add new homebrewed, lore-friendly custom Origins - Pariah, Augmenticist.",
+        "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/188",
+        "Tags": [ "Gameplay" ]
     },
-    "Service": {
-      "Github": {
-        "Owner": "microsoftenator2022",
-        "RepoName": "PlayerGenderOverride"
-      }
-    },
-    "About": "While the base game allows you to set your character's voice independently of their body type, your character's gender is determined based on your chosen body type (I = male, II = female). With this mod, you can override this behaviour.",
-    "HomepageUrl": "https://github.com/microsoftenator2022/PlayerGenderOverride",
-    "Tags": [ "Gameplay", "Utilities" ]
-  },
 
-  {
-    "Name": "Project BugFix",
-    "Author": "juliabel",
-    "Id": {
-      "Id": "Project_BugFix",
-      "Type": "Owlcat"
+    {
+        "Name": "Playable X",
+        "Author": "ADDB",
+        "Id": {
+            "Id": "PlayableX",
+            "Type": "UMM"
+        },
+        "Service": {
+            "Github": {
+                "Owner": "xADDBx",
+                "RepoName": "PlayableX"
+            }
+        },
+        "About": "Makes the Navigator, Tech-Priest and Adepta Sororitas origins pickeable for your Rogue Trader at Game Start. This might also enable you to recruit multiple Navigators mercenaries.",
+        "HomepageUrl": "https://github.com/xADDBx/PlayableX",
+        "Tags": [ "Gameplay", "Content" ]
     },
-    "Service": {
-      "Nexus": {
-        "ModID": "225"
-      }
-    },
-    "About": "Fixed some bugs, added some cut content, made some QoL changes. Any localization can use it. ",
-    "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/225",
-    "Tags": [ "Utilities" ]
-  },
 
-  {
-    "Name": "Psykers Of The Expanse",
-    "Author": "OdinThePine",
-    "Id": {
-      "Id": "PsykersOfTheExpanse",
-      "Type": "Owlcat"
+    {
+        "Name": "Player Gender Override",
+        "Author": "Microsoftenator",
+        "Id": {
+            "Id": "PlayerGenderOverride",
+            "Type": "UMM"
+        },
+        "Service": {
+            "Github": {
+                "Owner": "microsoftenator2022",
+                "RepoName": "PlayerGenderOverride"
+            }
+        },
+        "About": "While the base game allows you to set your character's voice independently of their body type, your character's gender is determined based on your chosen body type (I = male, II = female). With this mod, you can override this behaviour.",
+        "HomepageUrl": "https://github.com/microsoftenator2022/PlayerGenderOverride",
+        "Tags": [ "Gameplay", "Utilities" ]
     },
-    "Service": {
-      "Nexus": {
-        "ModID": "218"
-      }
-    },
-    "About": "Add new custom Psyker Disciplines - Electromancer.",
-    "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/218",
-    "Tags": [ "Gameplay" ]
-  },
 
-  {
-    "Name": "Ravor Find Me A Heretic",
-    "Author": "jonHinkerton",
-    "Id": {
-      "Id": "jhFindAHeretic",
-      "Type": "Owlcat"
+    {
+        "Name": "Project BugFix",
+        "Author": "juliabel",
+        "Id": {
+            "Id": "Project_BugFix",
+            "Type": "Owlcat"
+        },
+        "Service": {
+            "Nexus": {
+                "ModID": "225"
+            }
+        },
+        "About": "Fixed some bugs, added some cut content, made some QoL changes. Any localization can use it. ",
+        "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/225",
+        "Tags": [ "Utilities" ]
     },
-    "Service": {
-      "Nexus": {
-        "ModID": "206"
-      }
-    },
-    "About": "Random encounter generator for retinue and space battles available on demand.",
-    "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/206",
-    "Tags": [ "Gameplay" ]
-  },
 
-  {
-    "Name": "Rechargeable Grenades",
-    "Author": "Arkive",
-    "Id": {
-      "Id": "RechargeableGrenades",
-      "Type": "Owlcat"
+    {
+        "Name": "Psykers Of The Expanse",
+        "Author": "OdinThePine",
+        "Id": {
+            "Id": "PsykersOfTheExpanse",
+            "Type": "Owlcat"
+        },
+        "Service": {
+            "Nexus": {
+                "ModID": "218"
+            }
+        },
+        "About": "Add new custom Psyker Disciplines - Electromancer.",
+        "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/218",
+        "Tags": [ "Gameplay" ]
     },
-    "Service": {
-      "Nexus": {
-        "ModID": "44"
-      }
-    },
-    "About": "Basic grenades recharge at the end of combat.",
-    "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/44",
-    "Tags": [ "Gameplay", "Utilities" ]
-  },
 
-  {
-    "Name": "ReDress",
-    "Author": "ADDB",
-    "Id": {
-      "Id": "ReDress",
-      "Type": "UMM"
+    {
+        "Name": "Ravor Find Me A Heretic",
+        "Author": "jonHinkerton",
+        "Id": {
+            "Id": "jhFindAHeretic",
+            "Type": "Owlcat"
+        },
+        "Service": {
+            "Nexus": {
+                "ModID": "206"
+            }
+        },
+        "About": "Random encounter generator for retinue and space battles available on demand.",
+        "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/206",
+        "Tags": [ "Gameplay" ]
     },
-    "Service": {
-      "Nexus": {
-        "ModID": "104"
-      }
-    },
-    "About": "Allows changing the (at character generation) chosen cosmetic options. Also allows changing origin outfit. ",
-    "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/104",
-    "Tags": [ "Utilities" ]
-  },
 
-  {
-    "Name": "Skill Check Assistant",
-    "Author": "AlterAsc",
-    "Id": {
-      "Id": "SkillCheckAssistant",
-      "Type": "UMM"
+    {
+        "Name": "Rechargeable Grenades",
+        "Author": "Arkive",
+        "Id": {
+            "Id": "RechargeableGrenades",
+            "Type": "Owlcat"
+        },
+        "Service": {
+            "Nexus": {
+                "ModID": "44"
+            }
+        },
+        "About": "Basic grenades recharge at the end of combat.",
+        "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/44",
+        "Tags": [ "Gameplay", "Utilities" ]
     },
-    "Service": {
-      "Github": {
-        "Owner": "alterasc",
-        "RepoName": "SkillCheckAssistant"
-      }
-    },
-    "About": "Allows taking (rolling preset value) when doing skill checks. Available options are: roll normally, take 50, take 33, take 25, take 10, take 1. Settings are per individual skill.",
-    "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/3",
-    "Tags": [ "Gameplay", "Utilities" ]
-  },
 
-  {
-    "Name": "Tier 1 Archetypes in Tier 2",
-    "Author": "jonHinkerton",
-    "Id": {
-      "Id": "jhT1T2",
-      "Type": "Owlcat"
+    {
+        "Name": "ReDress",
+        "Author": "ADDB",
+        "Id": {
+            "Id": "ReDress",
+            "Type": "UMM"
+        },
+        "Service": {
+            "Nexus": {
+                "ModID": "104"
+            }
+        },
+        "About": "Allows changing the (at character generation) chosen cosmetic options. Also allows changing origin outfit. ",
+        "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/104",
+        "Tags": [ "Utilities" ]
     },
-    "Service": {
-      "Nexus": {
-        "ModID": "211"
-      }
-    },
-    "About": "Makes the tier 1 archetypes available in tier 2.",
-    "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/211",
-    "Tags": [ "Gameplay" ]
-  },
 
-  {
-    "Name": "ToyBox (a bag of tricks)",
-    "Author": "Narria",
-    "Id": {
-      "Id": "0ToyBox0",
-      "Type": "UMM"
+    {
+        "Name": "Remove Combat Drug Downsides",
+        "Author": "Ezfimods",
+        "Id": {
+            "Id": "RemoveDrugDownsides",
+            "Type": "Owlcat"
+        },
+        "Service": {
+            "Nexus": {
+                "ModID": "236"
+            }
+        },
+        "About": "Reduces or removes the negative effects of several consumable combat drugs.",
+        "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/236",
+        "Tags": [ "Gameplay" ]
     },
-    "Service": {
-      "Github": {
-        "Owner": "xADDBx",
-        "RepoName": "ToyBox-RogueTrader"
-      }
-    },
-    "About": "Toy Box is a cute and playful mod with 400+ cheats, tweaks and quality of life improvements. It was created in the spirit of Bag of Tricks & Cheat Menu but with a little different focus.",
-    "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/1",
-    "Tags": [ "Gameplay", "Utilities" ]
-  },
 
-  {
-    "Name": "Unlock Blood Phial",
-    "Author": "jonHinkerton",
-    "Id": {
-      "Id": "jhUnlockPhial",
-      "Type": "Owlcat"
+    {
+        "Name": "Skill Check Assistant",
+        "Author": "AlterAsc",
+        "Id": {
+            "Id": "SkillCheckAssistant",
+            "Type": "UMM"
+        },
+        "Service": {
+            "Github": {
+                "Owner": "alterasc",
+                "RepoName": "SkillCheckAssistant"
+            }
+        },
+        "About": "Allows taking (rolling preset value) when doing skill checks. Available options are: roll normally, take 50, take 33, take 25, take 10, take 1. Settings are per individual skill.",
+        "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/3",
+        "Tags": [ "Gameplay", "Utilities" ]
     },
-    "Service": {
-      "Nexus": {
-        "ModID": "198"
-      }
+
+    {
+        "Name": "Tier 1 Archetypes in Tier 2",
+        "Author": "jonHinkerton",
+        "Id": {
+            "Id": "jhT1T2",
+            "Type": "Owlcat"
+        },
+        "Service": {
+            "Nexus": {
+                "ModID": "211"
+            }
+        },
+        "About": "Makes the tier 1 archetypes available in tier 2.",
+        "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/211",
+        "Tags": [ "Gameplay" ]
     },
-    "About": "Unlock's Kibellah's first quick slot.",
-    "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/198",
-    "Tags": [ "Gameplay" ]
-  }
+
+    {
+        "Name": "ToyBox (a bag of tricks)",
+        "Author": "Narria",
+        "Id": {
+            "Id": "0ToyBox0",
+            "Type": "UMM"
+        },
+        "Service": {
+            "Github": {
+                "Owner": "xADDBx",
+                "RepoName": "ToyBox-RogueTrader"
+            }
+        },
+        "About": "Toy Box is a cute and playful mod with 400+ cheats, tweaks and quality of life improvements. It was created in the spirit of Bag of Tricks & Cheat Menu but with a little different focus.",
+        "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/1",
+        "Tags": [ "Gameplay", "Utilities" ]
+    },
+
+    {
+        "Name": "Unlock Blood Phial",
+        "Author": "jonHinkerton",
+        "Id": {
+            "Id": "jhUnlockPhial",
+            "Type": "Owlcat"
+        },
+        "Service": {
+            "Nexus": {
+                "ModID": "198"
+            }
+        },
+        "About": "Unlock's Kibellah's first quick slot.",
+        "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/198",
+        "Tags": [ "Gameplay" ]
+    }
 
 ]
