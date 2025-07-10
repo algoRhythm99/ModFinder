@@ -226,6 +226,24 @@
     },
 
     {
+        "Name": "Change Origin",
+        "Author": "AlterAsc",
+        "Id": {
+            "Id": "ChangeOrigin",
+            "Type": "UMM"
+        },
+        "Service": {
+            "Github": {
+                "Owner": "alterasc",
+                "RepoName": "ChangeOrigin"
+            }
+        },
+        "About": "Allows changing homeworld, origin and starting characteristics bonuses for main character. For lvl 0 change of archetype use ToyBox.",
+        "HomepageUrl": "https://github.com/alterasc/ChangeOrigin/",
+        "Tags": [ "Gameplay", "Utilities" ]
+    },
+
+    {
         "Name": "Cold Trader Origin",
         "Author": "jonHinkerton",
         "Id": {
