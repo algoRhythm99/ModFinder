@@ -553,6 +553,23 @@
     },
 
     {
+        "Name": "Little Birds",
+        "Author": "jonHinkerton",
+        "Id": {
+            "Id": "jhLittleBirds",
+            "Type": "Owlcat"
+        },
+        "Service": {
+            "Nexus": {
+                "ModID": "270"
+            }
+        },
+        "About": "Smaller, less distracting bird familiars",
+        "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/270",
+        "Tags": [ "Gameplay" ]
+    },
+
+    {
         "Name": "Medicae Archetype",
         "Author": "jonHinkerton",
         "Id": {
@@ -656,6 +673,23 @@
         "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/175",
         "Tags": [ "Gameplay" ]
     },
+    
+    {
+        "Name": "Operative Rework",
+        "Author": "Mawootad",
+        "Id": {
+            "Id": "OperativeRework",
+            "Type": "Owlcat"
+        },
+        "Service": {
+            "Nexus": {
+                "ModID": "287"
+            }
+        },
+        "About": "Reworks the Operative to bring their power level closer to other T1 archetypes and give them a clearer gameplan.",
+        "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/287",
+        "Tags": [ "Gameplay" ]
+    },
 
     {
         "Name": "Origins Of The Expanse",
@@ -741,6 +775,23 @@
         },
         "About": "Add new custom Psyker Disciplines - Electromancer.",
         "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/218",
+        "Tags": [ "Gameplay" ]
+    },
+
+    {
+        "Name": "Random Space Battles",
+        "Author": "jonHinkerton",
+        "Id": {
+            "Id": "jhRandomSpaceBattles",
+            "Type": "Owlcat"
+        },
+        "Service": {
+            "Nexus": {
+                "ModID": "194"
+            }
+        },
+        "About": "Add space battles to the random events tables for warp travel.",
+        "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/194",
         "Tags": [ "Gameplay" ]
     },
 
