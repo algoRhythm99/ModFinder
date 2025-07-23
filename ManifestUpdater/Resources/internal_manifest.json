@@ -530,7 +530,7 @@
                 "ModID": "181"
             }
         },
-        "About": "This mod expands the selection of Homeworlds available during character creation by introducing new custom options inspired by the game's original manuals. Each world is lore-friendly and emphasizes a specific playstyle or theme. ",
+        "About": "This mod expands the selection of Homeworlds available during character creation by introducing 7 new custom options inspired by the game's original manuals. Each world is lore-friendly and emphasizes a specific playstyle or theme. ",
         "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/181",
         "Tags": [ "Content" ]
     },
@@ -762,20 +762,20 @@
     },
 
     {
-        "Name": "Psykers Of The Expanse",
-        "Author": "OdinThePine",
-        "Id": {
-            "Id": "PsykersOfTheExpanse",
-            "Type": "Owlcat"
-        },
-        "Service": {
-            "Nexus": {
-                "ModID": "218"
-            }
-        },
-        "About": "Add new custom Psyker Disciplines - Electromancer.",
-        "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/218",
-        "Tags": [ "Gameplay" ]
+      "Name": "Psykers Of The Expanse",
+      "Author": "OdinThePine",
+      "Id": {
+        "Id": "PsykersOfTheExpanse",
+        "Type": "Owlcat"
+      },
+      "Service": {
+        "Nexus": {
+          "ModID": "218"
+        }
+      },
+      "About": "Add Telekinesis, Electromancy, Excess psychic disciplines - and some Heretical reactivity",
+      "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/218",
+      "Tags": [ "Gameplay" ]
     },
 
     {
