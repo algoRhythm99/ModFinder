@@ -107,6 +107,23 @@
     },
 
     {
+        "Name": "Assassin Buffs",
+        "Author": "Mawootad",
+        "Id": {
+            "Id": "AssassinBuffs",
+            "Type": "Owlcat"
+        },
+        "Service": {
+            "Nexus": {
+                "ModID": "294"
+            }
+        },
+        "About": "Provides small buffs for the Assassin to make them scale better. Assassin as a class mostly has a clear and functional role but has numbers that are too low to fulfill the job of a pure damage dealer. This mod provides some small tweaks that improve how the Assassin's key abilities function.",
+        "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/294",
+        "Tags": [ "Gameplay" ]
+    },
+
+    {
         "Name": "Banters Diversity",
         "Author": "juliabel",
         "Id": {
