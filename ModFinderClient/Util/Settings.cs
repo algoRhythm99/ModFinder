@@ -4,7 +4,7 @@
   {
     public string AutoRTPath { get; set; }
     public string RTPath { get; set; }
-    public string Slug { get; set; }
+    public string NexusApiKey { get; set; }
 
     private static Settings _Instance;
     public static Settings Load()
