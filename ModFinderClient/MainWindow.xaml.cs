@@ -872,6 +872,7 @@ namespace ModFinder
           {
             var bytes = Encoding.UTF8.GetBytes(sb.ToString());
             Main.Settings.NexusApiKeyBytes = ProtectedData.Protect(bytes, null, DataProtectionScope.CurrentUser);
+            Main.Settings.Save();
             break;
           } 
           catch (Exception ex)
