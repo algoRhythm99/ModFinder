@@ -897,6 +897,23 @@
         "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/3",
         "Tags": [ "Gameplay", "Utilities" ]
     },
+    
+    {
+        "Name": "Tech Priest Overhaul - New Origin - Pasqal Rework",
+        "Author": "Nekrofancy",
+        "Id": {
+            "Id": "Tech Priest Overhaul",
+            "Type": "Owlcat"
+        },
+        "Service": {
+            "Nexus": {
+                "ModID": "308"
+            }
+        },
+        "About": "This mod reworks Pasqal's Tech-Priest origin and is now playable for RT and mercenaries. The rework changes mechadendrites into abilities, and \\reworks\\combines\\introduces\\ Tech-Priest talents. This mod also re-adds Pasqal's Forge World Subskin Armour",
+        "HomepageUrl": "https://www.nexusmods.com/warhammer40kroguetrader/mods/308",
+        "Tags": [ "Gameplay" ]
+    },
 
     {
         "Name": "Tier 1 Archetypes in Tier 2",

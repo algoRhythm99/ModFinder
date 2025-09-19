@@ -888,8 +888,8 @@ namespace ModFinder
             {
               Logger.Log.Warning("Tried to link Non-Premium Nexus Account. Only Premium Accounts support direct download!");
             }
-              break;
-          } 
+            break;
+          }
           catch (Exception ex)
           {
             throw new Exception($"Error trying to process SSO result:\n{ex}");
