@@ -70,7 +70,8 @@ namespace ModFinder
         }
 #else
         Logger.Log.Verbose("Fetching remote manifest.");
-        var json = HttpHelper.GetResponseContent("https://raw.githubusercontent.com/CasDragon/ModFinder/RogueTrader/ManifestUpdater/Resources/master_manifest.json");
+        string manifestUrl = Properties.Settings.Default.ManifestUrl;
+        var json = HttpHelper.GetResponseContent(manifestUrl);
         Manifest = IOTool.FromString<MasterManifest>(json);
 #endif
 
@@ -179,19 +180,27 @@ namespace ModFinder
     #region Manifest / Local Mod Scanning
     public static void RefreshAllManifests()
     {
-      try
+      if (Manifest != null)
       {
-        RefreshGeneratedManifest();
-        foreach (var url in Manifest.ExternalManifestUrls)
+        try
         {
-          Logger.Log.Verbose($"Loading manifest from external URL: {url}");
-          var json = HttpHelper.GetResponseContent(url);
-          RefreshManifest(IOTool.FromString<ModManifest>(json));
+          try
+          {
+            RefreshGeneratedManifest();
+            foreach (var url in Manifest.ExternalManifestUrls)
+            {
+              Logger.Log.Verbose($"Loading manifest from external URL: {url}");
+              var json = HttpHelper.GetResponseContent(url);
+              RefreshManifest(IOTool.FromString<ModManifest>(json));
+            }
+          }
+          catch (Exception e)
+          {
+            Logger.Log.Error($"Failed to refresh manifests.", e);
+          }
         }
-      }
-      catch (Exception e)
-      {
-        Logger.Log.Error($"Failed to refresh manifests.", e);
+        catch (Exception)
+        { }
       }
     }
 
