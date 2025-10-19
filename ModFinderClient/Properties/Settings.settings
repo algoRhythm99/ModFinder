@@ -5,5 +5,8 @@
     <Setting Name="WrathPath" Type="System.String" Scope="User">
       <Value Profile="(Default)" />
     </Setting>
+    <Setting Name="ManifestUrl" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://raw.githubusercontent.com/Pathfinder-WOTR-Modding-Community/ModFinder/main/ManifestUpdater/Resources/master_manifest.json</Value>
+    </Setting>
   </Settings>
 </SettingsFile>
